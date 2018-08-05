@@ -3,14 +3,20 @@
 == Bakgrunn
 Dette GitHub-biblioteket er opprettet av Difi våren 2018 for å samle dokumentasjon om virksomhetsarkitektur i offentlig sektor i Norge.
 
+Github som lagringssted er en praktisk tilnærming og kan bli gjenstand for endring:  
+
 == Struktur
 Biblioteket er bygget opp etter mønster av TOGAF og Norsk arkitekturrammeverk for samhandling, der det skilles mellom arkitekturbibliotek, løsningsbibliotek og kravbibliotek.
 
-NOTE: Navnet __arkitekturbibliotek__ henspeiler altså bare på en del av det totale biblioteket. For å presisere denne forskjellen, brukes betegnelsen __Nasjonalt virksomhetsarkitekturbibliotek__, der __virksomheten__ i dette tilfellet er (offentlig sektor i) Norge. TIL VURDERING: Renavn og kall det bare arkitekturer, løsninger og krav, så fungerer det bedre å kalle det hele for __arkitekturbibliotek__, noe som trolig er enklere å forholde seg til for de fleste.  
+[NOTE]
+====
+Navnet __arkitekturbibliotek__ henspeiler altså bare på en del av det totale biblioteket. For å presisere denne forskjellen, brukes betegnelsen __Nasjonalt virksomhetsarkitekturbibliotek__, der __virksomheten__ i dette tilfellet er (offentlig sektor i) Norge. 
 
-== Innhold
-Innholdet dreier seg mye __samhandlingsarkitektur__, men er ikke begrenset til dette. Det er i utgangspunktet plass til all arkitekturdokumentasjon som kan være nyt
-tig på tvers av virksomheter og sektorer. 
+__Til vurdering: Renavn og kall det bare arkitekturer, løsninger og krav, så fungerer det bedre å kalle det hele for [underline]#__arkitekturbibliotek__# -  trolig  enklere å forholde seg til for de fleste?__
+====
+
+== Innhold  vs. presentasjon
+Innholdet dreier seg mye __samhandlingsarkitektur__, men er ikke begrenset til dette. Det er i utgangspunktet plass til all arkitekturdokumentasjon som kan være nyttig på tvers av virksomheter og sektorer. 
 
 I tillegg til innhold her, vil det finnes mye stoff i tilsvarende biblioteker i enkelte virksomhetene som også kan være av felles interesse. Det er et siktemål at alle virksomheter følger samme struktur, retningslinjer og standarder for arkitekturdokumentasjon, slik at det blir enklere å referere og integrere innhold på tvers. 
 
