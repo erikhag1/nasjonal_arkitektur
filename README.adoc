@@ -3,7 +3,7 @@
 == Bakgrunn
 Dette GitHub-biblioteket er opprettet av Difi våren 2018 for å samle dokumentasjon om virksomhetsarkitektur i offentlig sektor i Norge.
 
-Github som lagringssted er en praktisk tilnærming og kan bli gjenstand for endring:  
+Valget av Github som lagringssted med tilhørende filformater er en praktisk tilnærming. Hensynet til utbredelsen blant utviklere og arkitekter har vært en viktig faktor i dette. Det jobbes med konsepter, konvensjoner og verktøy som kan forenkle og forbedre ytterligere. 
 
 == Struktur
 Biblioteket er bygget opp etter mønster av TOGAF og Norsk arkitekturrammeverk for samhandling, der det skilles mellom arkitekturbibliotek, løsningsbibliotek og kravbibliotek.
