@@ -1,6 +1,35 @@
-= Tips om bruk av github for Nasjonal arkitektur
+= Tips om dokumentasjon på GitHub
 
-=== Komme igang
+//Doc Writer <erik.hagen@difi.no>
+//:doctype: article
+//:docinfo:
+:icons: font
+:toc:
+:toc-title: Innholdsfortegnelse
+:toclevels: 3
+:sectlinks:
+:leveloffset: +1
+:sectids:
+:sectnums:
+:sectanchors:
+:sectnumlevels: 3
+:xrefstyle: short
+
+:imagesdir: images
+:data-uri: 
+:versjon: 0.1
+:SistEndretDato: 2018-08-06
+
+image:difilogo.png[image,width=169,height=66] 
+
+Hvordan komme i gang - standarder - retningslinjer - verktøy - praktiske tips
+
+Versjon: {versjon}; Dato: {sistEndretDato}
+
+
+== Komme igang
+
+=== Etabler lokal filmappe for kloning av github-filer
 
 Lag en filmappe som hjemmeområde for å arbeide lokalt med github-filer.
 
@@ -14,15 +43,39 @@ Datamaskinkonfigurasjon, Administrative maler, System, Filsystem. Du må restart
 === Installer GitHub Desktop
 
 NOTE: GitHub desktop kan av og til ha problemer med å aksessere .gitconfig-filen. Dette kan trolig fikses ved å opprette en systemvariabel HOME til den mappen du har opprettet som
-hjemmeområde for dine lokale GitHub-filer (bruk Kontrollpanel, System, Avanserte systeminnstillinger, miljøvariabler). NB! En bør kanskje unngå å bruke nettverks-drive (som noen virksomheter bruker som default for Dokumenter). Bruk da heller en katalog direkte under ditt brukernavn på C:\Brukere. Se også  https://github.com/desktop/desktop/issues/4119. 
+hjemmeområde for dine lokale GitHub-filer (bruk Kontrollpanel, System, Avanserte systeminnstillinger, miljøvariabler). NB! En bør kanskje unngå å bruke nettverks-drive (som noen virksomheter bruker som default for Dokumenter). Bruk da heller en katalog direkte under ditt brukernavn på C:\Brukere. Se også  https://github.com/desktop/desktop/issues/4119.
 
 
+=== Installer redigeringsverktøy
+Flere verktøy for editering av asciidoc finnes. De fleste vil ha nytte av en editor som gir støtte til formatering og viser resultatet direkte (WYSIWIG).
+
+ AsciidocFX
+. Eventuelt også Atom , Teletype for Atom (?)
+
+=== Installer verktøy for formatkonvertering
+. pandoc
 
 === Klon GitHub-prosjektet til din maskin
 
 Med Github desktop: File | Clone a repository
 
 
-. Atom
 
-. Teletype for Atom (?)
+:numbered:
+== Erik-test
+
+[id="X1",reftext="1st section"]
+=== Section One
+Hei!
+
+A Nested Sub-section
+~~~~~~~~~~~~~~~~~~~~
+
+
+[id="X2",reftext="2nd section"]
+=== Section Two
+See also <<X1>>
+
+=== Seksjon 3
+
+[red]#Obvious# and [big red yellow-background]*very obvious*.
