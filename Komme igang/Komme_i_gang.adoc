@@ -1,18 +1,26 @@
 // Tips: lang-attributten settes normalt fra asciidoctor kommandolinjen som f.eks."-a lang=en". I så fall overstyres parametersettingen som gjøres her; dvs. at følgende setting ":lang: no" kun fungerer som defaultverdi (nyttig for visning i WYSIWIG-editor)
 :lang: en 
+:revdate: 2018-08-06
 ifeval::["{lang}" == "no"]
 = Tips om dokumentasjon på GitHub
+Direktoratet for fovaltning og ikt (Difi)
+{revdate} 
+:revremark: Initiell versjon
+:keywords: GitHub, dokumentasjon
 endif::[]
 ifeval::["{lang}" == "en"]
 = How to for GitHub documentation
+Agency for Public Management and eGovernment (Difi)
+{revdate}
+:revremark: Initial revision
+:keywords: GitHub, documentation
 endif::[]
-Direktoratet for forvaltning og IKT
-//:description: Hvordan komme i gang - standarder - retningslinjer - praktiske tips
+:description: Hvordan komme i gang - standarder - retningslinjer - praktiske tips
 :doctype: article
 :icons: font
 //:docinfodir: meta
-:docinfo:
-:toc: left
+//:docinfo:
+:toc: macro
 //:sectnums:
 :leveloffset: +0
 :toc-title: Innhold
@@ -26,43 +34,17 @@ Direktoratet for forvaltning og IKT
 // data-uri benyttes for å inkludere images i generert html-fil 
 :data-uri: 
 
-:SistEndretDato: 2018-08-06 
-//Erik: Sjekk om det finnes en standardattributt som gir SistEndretDatos automatisk
-
-// extended-lang-processing er en egendefinert attributt (Difi) som trigger utvidet språkstøtte. Se også lang1, lang2 
-:extended-lang-processing: yes
-
-// egendefinert attributt (Difi) for å angi hvilket språk artikkelen eller boken først ble skrevet på. Interesseant å vite dersom oversettelse til f.eks. engelsk fra norsk bare er delvis gjort
-:lang1: no
-
-// egendefinert attributt (Difi) for å angi et språk nr. 2 som det er oversatt til, helt eller delvis
-:lang2: en
-
-// egendefinert attributt (Difi) for å angi et språk nr. 3 som det er oversatt til, helt eller delvis
-:lang3: dk
-
-
-// egendefinert attributt (Difi) for å angi om oversettelsen til språk 2 er komplett. Verdier: no; yes 
-:lang2complete: no
-
-
-
-
-image:difilogo.svg[image,width=169,height=66]
-
-Dato: {sistEndretDato} 
-
-
-//ifeval::["{lang2complete}" == "no"]
-ifeval::["{lang}" == "en"]
-_For english speakers: This document was originally written in the Norwegian language. Only som parts of the document has so far been translated into English._ 
-endif::[]
-//endif::[]
-
-
 ifeval::["{toc}" == "macro"]
 toc::[]
 endif::[]
+// Note, Erik, 2018-08-11: Seems tricky to get the macro toc displayed; e.g. can't have it below the following logo image? So, go for ":toc: left" for now...
+
+image:difilogo.svg[image,width=169,height=66]
+
+ifeval::["{lang}" == "en"]
+_For english speakers: This document was originally written in the Norwegian language. The English translation may be incomplete._ 
+endif::[]
+
 
 //include::locale/attributes.adoc[]
 
@@ -104,3 +86,15 @@ Flere verktøy for editering av asciidoc finnes. De fleste vil ha nytte av en ed
 === Klon GitHub-prosjektet til din maskin
 
 Med Github desktop: File | Clone a repository
+
+=== Skriv et dokument som dette
+
+Antar her AsciidocFX som editor, slik dette virker per august 2018.
+
+Tips:
+
+* Start med å kopiere denne malen:  (Kommer)
+* Unngå å endre de første linjene (_header_) før du vet hva du gjør. Et linjeskift for mye eller for lite her kan endre innhold og utseende og gi problemer for plassering av innholdsfortegnelse.
+* Bruk asciidoctor kommandolinje for å styre språk (standardattributt _lang_)
+* Bruk asciidoctor kommandolinje for å styre plassering av innholdsfortegnelse (standardattributt _toc_)
+* 

@@ -1,41 +1,54 @@
-= Nasjonalt virksomhetsarkitekturbibliotek
+= Nasjonal arkitektur: Bibliotek for virksomhetsarkitektur i Norge  
+Difi, 2018-08-01
 
-== Bakgrunn
+== Bakgrunn og formål
 Dette GitHub-biblioteket er opprettet av Difi våren 2018 for å samle dokumentasjon om virksomhetsarkitektur i offentlig sektor i Norge.
 
-Valget av Github som lagringssted med tilhørende filformater er en praktisk tilnærming. Hensynet til utbredelsen blant utviklere og arkitekter har vært en viktig faktor i dette. Det jobbes med konsepter, konvensjoner og verktøy som kan forenkle og forbedre ytterligere. 
+Det legges opp til utstrakt samarbeid for å etablere og vedlikeholde innhold i biblioteket. Ditt bidra er ønsket. Gi beskjed via e-post til nasjonal.arkitektur@difi.no for å be om skrivetilgang.
+
+
+== Omfang og avgrensing
+Innholdet dreier seg primært om __samhandlingsarkitektur__, men er ikke begrenset til dette. All arkitekturdokumentasjon som kan være nyttig på tvers av virksomheter og sektorer hører hjemme her. 
+
+I tillegg til innholdet i dette biblioteket, vil det finnes mye stoff i tilsvarende biblioteker i de enkelte virksomhetene som også kan være av felles interesse. 
+
+Det er et siktemål at alle virksomheter følger et sett av  retningslinjer for arkitekturdokumentasjon som gjør det enkelt å referere og integrere innhold på tvers.
+
+== Ditt bidrag er ønsket
+Høy kvalitet tilstrebes, men terskelen for å publisere innhold i det nasjonale biblioteket skal ikke være for høy. Eksempler og god praksis må deles for å få fra beste praksis, anbefalinger, retningslinjer og standarder. 
+
+Det skal være enkelt å komme i gang med å bidra til innholdocumentd i dette biblioteket. Se [red yellow-background]#<<document-b.adoc#section-b,Tips for å komme i gang>>#.
+////
+* <<document-b.adoc#section-b,Tips for å skrive artikler>>.
+* <<document-b.adoc#section-b,Tips for å skrive dokumenter og bøker>>.
+////
+
+
+== Grunnleggende konsepter og prinsipper
+Grunnleggende konsepter og prinsipper:
+
+* Skille mellom innhold og presentasjon - standardformat for innhold i biblioteket, som så kan oversettes til vilkårlig format for plublisering eller videre arbeid   
+* Levende dokumentasjon - alt skal kunne oppdateres løpende, uten å ødelegge sammenheng og konsistens  
+* Versjonering og historikk - det må være mulig å gå tilbake og se tidligere versjoner
+
+Se [red yellow-background]#<<document-b.adoc#section-b,Konsepter, prinsipper og funksjonelle krav>># for mer informasjon.
 
 == Struktur
-Biblioteket er bygget opp etter mønster av TOGAF og Norsk arkitekturrammeverk for samhandling, der det skilles mellom arkitekturbibliotek, løsningsbibliotek og kravbibliotek.
+Mappestrukturen i biblioteket er bygget opp etter mønster av TOGAF og Norsk arkitekturrammeverk for samhandling.  
 
-[NOTE]
-====
-Navnet __arkitekturbibliotek__ henspeiler altså bare på en del av det totale biblioteket. For å presisere denne forskjellen, brukes betegnelsen __Nasjonalt virksomhetsarkitekturbibliotek__, der __virksomheten__ i dette tilfellet er (offentlig sektor i) Norge. 
+En kan også tagge innhold med metadata og bruke dette for å navigere og søke.
 
-__Til vurdering: Renavn og kall det bare arkitekturer, løsninger og krav, så fungerer det bedre å kalle det hele for [underline]#__arkitekturbibliotek__# -  trolig  enklere å forholde seg til for de fleste?__
-====
+== Standarder, retningslinjer og anbefalinger
+=== Dokumentasjonsformater
+Alt nytt innhold skal lagres på gjeldende standard innholdsformater. Dette er blant annet Asciidoc for tekst og Archimate utvekslingsformat for arkitekturmodeller.
 
-== Innhold  vs. presentasjon
-Innholdet dreier seg mye __samhandlingsarkitektur__, men er ikke begrenset til dette. Det er i utgangspunktet plass til all arkitekturdokumentasjon som kan være nyttig på tvers av virksomheter og sektorer. 
+Ut fra standardformatene i biblioteket kan det enkelt konverteres til andre formater for publisering eller videre arbeid. For publisering benyttes i utgangspunktet primært html5.
 
-I tillegg til innhold her, vil det finnes mye stoff i tilsvarende biblioteker i enkelte virksomhetene som også kan være av felles interesse. Det er et siktemål at alle virksomheter følger samme struktur, retningslinjer og standarder for arkitekturdokumentasjon, slik at det blir enklere å referere og integrere innhold på tvers. 
+Tidligere dokumentasjon i andre formater konvereres til gjeldende standarder ut fra kost-nytte-vurderinger. Det finnes f.eks. verktøy for konverting av Word-dokumenter til asciidoc, men noe manuelt arbeid må en uansett regne med.  
 
-Selv om høy kvalitet tilstrebes, skal terskelen for å publisere innhold i det nasjonale biblioteket ikke være uoverstigelig. I mangel av etablerte referansearkitekturer, vil en f.eks. forsøke å få på plass  eksempler på hvordan det er gjort hos de som har gode eksemplker å vise fram.  
+NOTE: Det er mulig å lagre tradisjonelle dokumenter på github, slik som f.eks Word eller pdf, men dette gjøres i minst mulig grad. Andre teknologier er bedre egnet enn GitHub for lagring og søk i dokumenter. Total størrelse på Github-biblioteket bør dessuten begrenses, slik at det lar seg klone til den enkeltes lokale filområde (det er slik en jobber med innhold i github). 
 
-== Dokumentasjonsformater og standarder - kort introduksjon
-Et viktig prinsipp for dette biblioket, er å skille mellom innhold og presentasjon.  Alt nytt innhold skal produseres på   gjeldende standard innholdsformater. Dette er blant annet asciidoc for tekst og archimate utvekslingsformat for arkitekturmodeller. Ut fra standardformatene i biblioteket kan det enkelt konverteres til andre formater for presentasjon eller arbeid i egne verktøy.   Mer informasjon om standarder og retningslinjer finnes her: __Link kommer__.
-
-Tidligere doumentasjon i andre formater konvereres til gjeldende standarder ut fra kost-nytte-vurderinger. Det finnes f.eks. verktøy for konverting av Word-dokumenter til asciidoc, men noe manuelt arbeid må en uansett regne med. For f.eks. Powerpoint eller wiki-innhold i Sharepoint eller Drupal, er saken en helt annen - her må en regne med å gjøre det meste manuelt.  
-
-NOTE: Det er mulig å lagre tradisjonelle dokumenter på github, slik som f.eks Word eller pdf, men dette bør gjøres i begrenset grad som del av dette biblioteket. Total størrelse på Github-biblioteket bør ikke ovestige noen hundre MB; det vil ellers bli uegnet for kloning til lokale filområder, slik det må gjøres med github.  
-
-== Verktøy
-Det er opp til hver enkelt å velge produksjonsverktøy, så lenge resultatet er innhold på gjeldende standardformater. Det gis likevel tips og anbefalinger, slik at det skal bli enklere for hver enkelt å komme igang og følge de aktuelle standardene.
+=== Annet
+Se [red yellow-background]#<<document-b.adoc#section-b,standarder, retningslinjer og anbefalinger>># for mer informasjon.
 
 
-== Samarbeid
-For å lykkes med dette, kreves utstrakt samarbeid. Gi beskjed via e-post til nasjonal.arkitektur@difi.no om du ønsker skrivetilgang.
-
-
-== Annet
-Mer om konsepter, standarder, retningslinjer, anbefalinger og tips finnes her: __Lenke kommer__

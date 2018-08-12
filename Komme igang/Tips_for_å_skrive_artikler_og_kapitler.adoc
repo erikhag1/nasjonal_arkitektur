@@ -1,0 +1,31 @@
+== Hvordan skrive artikler og kapitler
+
+:nasjonalt_arkitekurbibliotek: https://github.com/difi/nasjonal_arkitektur[nasjonalt arkitekturbibliotek på GitHub].
+
+NOTE: Denne artikkelen er et kapittel i Difis veiledning for dokumentasjon i {nasjonalt_arkitekurbibliotek} 
+
+Skriv det ned! Det skal være enkelt å gjøre, enten det er en huskelapp, en blogg eller en seksjon om noe som i neste omgang kanskje skal inngå som et kapittel i et større dokument eller en bok. 
+
+Vi har standardisert på asciidoc som dokumentasjonsformat. Det betyr at alt som skrives kan konverteres til ønsket format, som f.eks. pdf eller html, eller mer avanserte formater som f.eks. docbook eller epub.
+
+
+
+
+Det aller enkleste er 
+
+La oss kalle det **artikler**. Det er 
+
+
+
+
+
+
+Antar her AsciidocFX som editor, slik dette virker per august 2018.
+
+Tips for å unngå problemer:
+
+* Start med å kopiere denne malen:  (Kommer)
+* Pass på å ikke sette inn linjeskift i header forn andre linje, som skal angi forfatter
+* Pass på å ikke sette inn linjeskift foran ":toc:"
+* Du kan velge om det skal være innholdsfortegnelse på venstre side eller på angitt sted... Erik: tets om det fiunker å angi fra kommandolinjen?
+* ...

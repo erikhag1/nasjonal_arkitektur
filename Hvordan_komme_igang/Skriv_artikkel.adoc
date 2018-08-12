@@ -1,0 +1,16 @@
+== Tips for å skrive artikler og kapitler
+
+NOTE: Denne artikkelen er et kapittel i Difis veiledning for dokumentasjon i http://url[nasjonalt arkitekturbibliotek].
+
+Det skal være enkelt å skrive 
+
+Antar her AsciidocFX som editor, slik dette virker per august 2018.
+
+Tips for å unngå problemer:
+
+* Start med å kopiere denne malen:  (Kommer)
+* Pass på å ikke sette inn linjeskift i header forn andre linje, som skal angi forfatter
+* Pass på å ikke sette inn linjeskift foran ":toc:"
+* Du kan velge om det skal være innholdsfortegnelse på venstre side eller på angitt sted... Erik: tets om det fiunker å angi fra kommandolinjen?
+* ...
+Tips_for_å_skrive_artikler_og_kapitler
