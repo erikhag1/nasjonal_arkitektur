@@ -17,7 +17,7 @@ Det er et siktemål at alle virksomheter følger et sett av  retningslinjer for 
 == Ditt bidrag er ønsket
 Høy kvalitet tilstrebes, men terskelen for å publisere innhold i det nasjonale biblioteket skal ikke være for høy. Eksempler og god praksis må deles for å få fra beste praksis, anbefalinger, retningslinjer og standarder. 
 
-Det skal være enkelt å komme i gang med å bidra til innhold i dette biblioteket. Se [red yellow-background]#<<../Hvordan_komme_igang/Tips_for_å_komme_i_gang.adoc, Tips for å komme i gang>>#.
+Det skal være enkelt å komme i gang med å bidra til innhold i dette biblioteket. Se <</Hvordan_komme_igang/Tips_for_å_komme_i_gang.adoc,Tips for å komme i gang>>.
 ////
 https://github.com/difi/nasjonal_arkitektur/blob/master/Hvordan_komme_igang/Tips_for_%C3%A5_komme_i_gang.adoc
 
