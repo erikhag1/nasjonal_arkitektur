@@ -4,20 +4,21 @@ Difi, 2018-08-01
 == Bakgrunn og formål
 Dette GitHub-biblioteket er opprettet av Difi våren 2018 for å samle dokumentasjon om virksomhetsarkitektur i offentlig sektor i Norge.
 
-Det legges opp til utstrakt samarbeid for å etablere og vedlikeholde innhold i biblioteket. Ditt bidra er ønsket. Gi beskjed via e-post til nasjonal.arkitektur@difi.no for å be om skrivetilgang.
 
-
-== Omfang og avgrensing
 Innholdet dreier seg primært om __samhandlingsarkitektur__, men er ikke begrenset til dette. All arkitekturdokumentasjon som kan være nyttig på tvers av virksomheter og sektorer hører hjemme her. 
 
-I tillegg til innholdet i dette biblioteket, vil det finnes mye stoff i tilsvarende biblioteker i de enkelte virksomhetene som også kan være av felles interesse. 
-
-Det er et siktemål at alle virksomheter følger et sett av  retningslinjer for arkitekturdokumentasjon som gjør det enkelt å referere og integrere innhold på tvers.
+I tillegg til innholdet i dette biblioteket, vil det finnes mye stoff i tilsvarende biblioteker i de enkelte virksomhetene som også kan være av felles interesse. Det er et siktemål at alle virksomheter følger et sett av  retningslinjer for arkitekturdokumentasjon som gjør det enkelt å referere og integrere innhold på tvers.
 
 == Ditt bidrag er ønsket
+Det legges opp til utstrakt samarbeid for å etablere og vedlikeholde innhold i biblioteket.
+
 Høy kvalitet tilstrebes, men terskelen for å publisere innhold i det nasjonale biblioteket skal ikke være for høy. Eksempler og god praksis må deles for å få fra beste praksis, anbefalinger, retningslinjer og standarder. 
 
-Det skal være enkelt å komme i gang med å bidra til innhold i dette biblioteket. Se link:Hvordan_komme_igang/Tips_for_å_komme_i_gang.adoc[Tips for å komme i gang]
+
+Ditt bidrag er ønsket. Gi beskjed via e-post til erik.hagen@difi.no for å be om skrivetilgang. Oppgi da ditt brukernavn på GitHub.
+
+== Hvordan komme i gang
+Det skal være enkelt å komme i gang med å bidra til innhold i dette biblioteket. Se link:Bakgrunnsinformasjon/Tips_for_å_komme_i_gang.adoc[Tips for å komme i gang]
 
 ////
 link:Tips_for_%C3%A5_komme_i_gang.adoc[Tips for å komme i gang]

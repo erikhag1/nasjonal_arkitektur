@@ -1,4 +1,4 @@
-= Hvordan skrive artikler eller kapitler
+= Tips for å skrive artikler eller kapitler
 Erik Hagen, erik.hagen@difi.no, 2018-08-12
 :imagesdir: images
 :nasjonalt_arkitekurbibliotek: https://github.com/difi/nasjonal_arkitektur[nasjonalt arkitekturbibliotek på GitHub].
@@ -37,8 +37,10 @@ Anbefaling: Sett attributt #imagedir# i header og lagre aktuelle figurer i denne
 === Annet
 [red]#Flere tips kommer her#.
 
-I mellomtiden, se f.eks. https://asciidoctor.org/docs/user-manual/[Asciidoctor User Manual].
+I mellomtiden, se
 
+* https://asciidoctor.org/docs/user-manual/[Asciidoctor User Manual].
+* ...
 
 
 
