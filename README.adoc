@@ -17,7 +17,7 @@ Det er et siktemål at alle virksomheter følger et sett av  retningslinjer for 
 == Ditt bidrag er ønsket
 Høy kvalitet tilstrebes, men terskelen for å publisere innhold i det nasjonale biblioteket skal ikke være for høy. Eksempler og god praksis må deles for å få fra beste praksis, anbefalinger, retningslinjer og standarder. 
 
-Det skal være enkelt å komme i gang med å bidra til innholdocumentd i dette biblioteket. Se [red yellow-background]#<<document-b.adoc#section-b,Tips for å komme i gang>>#.
+Det skal være enkelt å komme i gang med å bidra til innhold i dette biblioteket. Se [red yellow-background]#<<Hvordan_komme_igang/Tips_for_å_komme_i_gang, Tips for å komme i gang>>#.
 ////
 * <<document-b.adoc#section-b,Tips for å skrive artikler>>.
 * <<document-b.adoc#section-b,Tips for å skrive dokumenter og bøker>>.
@@ -28,8 +28,8 @@ Det skal være enkelt å komme i gang med å bidra til innholdocumentd i dette b
 Grunnleggende konsepter og prinsipper:
 
 * Skille mellom innhold og presentasjon - standardformat for innhold i biblioteket, som så kan oversettes til vilkårlig format for plublisering eller videre arbeid   
-* Levende dokumentasjon - alt skal kunne oppdateres løpende, uten å ødelegge sammenheng og konsistens  
-* Versjonering og historikk - det må være mulig å gå tilbake og se tidligere versjoner
+* Levende dokumentasjon som oppdateres løpende - hovedregelen er at siste versjon gjelder  
+* Versjonering og historikk - mulig å gå tilbake og se tidligere versjoner
 
 Se [red yellow-background]#<<document-b.adoc#section-b,Konsepter, prinsipper og funksjonelle krav>># for mer informasjon.
 
