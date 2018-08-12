@@ -1,0 +1,44 @@
+= Hvordan skrive artikler eller kapitler
+Erik Hagen, erik.hagen@difi.no, 2018-08-12
+:imagesdir: images
+:nasjonalt_arkitekurbibliotek: https://github.com/difi/nasjonal_arkitektur[nasjonalt arkitekturbibliotek på GitHub].
+
+NOTE: Denne artikkelen er et kapittel i Difis veiledning for dokumentasjon i {nasjonalt_arkitekurbibliotek} 
+
+Skriv det ned! Det skal være enkelt å gjøre, enten det er en huskelapp, en blogg eller en seksjon om noe som i neste omgang kanskje skal inngå som et kapittel i et større dokument eller en bok. 
+
+Vi har standardisert på asciidoc som dokumentasjonsformat. Det betyr at alt som skrives kan konverteres til ønsket format, som f.eks. pdf eller html, eller mer avanserte formater som f.eks. docbook eller epub.
+
+Denne artikkelen er et eksempel på hvordan det kan gjøres, med bare noen få enkle grep.
+
+Om du bruker en editor som f.eks. AsciidocFX (flere finnes), har du  et brukergrensesnitt som gir deg direkte forhåndsvisning og noen knapper for å sette inn lenker og formatere teksten, uten at du må huske på syntaksen i Asccidoc. For de fleste vanlige operasjoner er på den annen side syntaksen såpass enkel at de fleste raskt lærer seg det viktigste.
+
+Her følger noen enkle tips:
+
+* Punkter i unummerert liste (som her)
+* Andre former for lister (#kommer her#)
+* Sette inn figurer og bilder (se nedenfor)
+* Lenker til eksternt innhold på web, som f.eks. https://asciidoctor.org/docs/user-manual/[Asciidoctor User Manual]
+* <<Interne kryssreferanser>> 
+* Kapittelinndeling (se nedenfor)
+
+== Ekspempel på kapittel
+=== Eksempel på underkapittel
+Om du vil med kapitler (sections), i enkle artikkel, kan det gjøres slik som dette. En kan også generere innholdsfortegnelse, men det beskrives nærmere under http://url[Hvordan sette sammen  dokumenter og bøker].
+
+Et viktig poeng her er uansett at en kan sette sammen artikler som kapitler i dokumenter (bøker).Det er da mulig å tilpasse kapittelnivået, slik at du ikke behøver å tenke på det når du skriver en artikkel som dette.
+
+=== Interne kryssreferanser
+Dette kan gjøres på flere måter, f.eks. slik som lenken hit fra listen over.
+
+=== Sette inn figurer og bilder
+Anbefaling: Sett attributt #imagedir# i header og lagre aktuelle figurer i denne mappen. Deretter kan bilder enkelt tas inn, f.eks. slik dette... image:difilogo.svg[image,width=169,height=66]
+
+=== Annet
+[red]#Flere tips kommer her#.
+
+I mellomtiden, se f.eks. https://asciidoctor.org/docs/user-manual/[Asciidoctor User Manual].
+
+
+
+

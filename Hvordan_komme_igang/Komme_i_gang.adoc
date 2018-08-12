@@ -75,26 +75,19 @@ Tips: Det er kanskje en god ide å unngå å bruke nettverks-drive (som noen vir
 
 
 === Installer redigeringsverktøy
-Flere verktøy for editering av asciidoc finnes. De fleste vil ha nytte av en editor som gir støtte til formatering og viser resultatet direkte (WYSIWIG).
+Flere verktøy for editering av asciidoc finnes. De fleste vil ha nytte av en editor som gir støtte til formatering og viser resultatet direkte (WYSIWIG). Anbefalt her:
 
 . AsciidocFX
-. Eventuelt også Atom , Teletype for Atom (?)
 
-=== Installer verktøy for formatkonvertering
-. pandoc
 
 === Klon GitHub-prosjektet til din maskin
 
 Med Github desktop: File | Clone a repository
 
-=== Skriv et dokument som dette
+=== Start å skrive
+Du kan gjøre det enkelt, eller så avansert du måtte ønske. Her er noen tips:
 
-Antar her AsciidocFX som editor, slik dette virker per august 2018.
+* Tips_for_å_skrive_artikler_eller_kapitler.adoc
 
-Tips:
 
-* Start med å kopiere denne malen:  (Kommer)
-* Unngå å endre de første linjene (_header_) før du vet hva du gjør. Et linjeskift for mye eller for lite her kan endre innhold og utseende og gi problemer for plassering av innholdsfortegnelse.
-* Bruk asciidoctor kommandolinje for å styre språk (standardattributt _lang_)
-* Bruk asciidoctor kommandolinje for å styre plassering av innholdsfortegnelse (standardattributt _toc_)
-* 
+
