@@ -1,5 +1,8 @@
 // Tips: lang-attributten settes normalt fra asciidoctor kommandolinjen som f.eks."-a lang=en". I så fall overstyres parametersettingen som gjøres her; dvs. at følgende setting ":lang: no" kun fungerer som defaultverdi (nyttig for visning i WYSIWIG-editor)
-:lang: no 
+:lang: no
+:funksjonsområde: kommunikasjon
+:målgruppe: Knut
+
 :revdate: 2018-08-06
 ifeval::["{lang}" == "no"]
 = Tips for å komme i gang
