@@ -57,6 +57,6 @@ Tidligere dokumentasjon i andre formater konvereres til gjeldende standarder ut 
 NOTE: Det er mulig å lagre tradisjonelle dokumenter på github, slik som f.eks Word eller pdf, men dette gjøres i minst mulig grad. Andre teknologier er bedre egnet enn GitHub for lagring og søk i dokumenter. Total størrelse på Github-biblioteket bør dessuten begrenses, slik at det lar seg klone til den enkeltes lokale filområde (det er slik en jobber med innhold i github). 
 
 === Annet
-Se [red yellow-background]#<<document-b.adoc#section-b,standarder, retningslinjer og anbefalinger>># for mer informasjon.
+Se [red yellow-background]#<<document-b.adoc#section-b,standarder, retningslinjer og anbefalinger>># for mer informasjon..
 
 
