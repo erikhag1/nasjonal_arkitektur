@@ -79,7 +79,7 @@ Tips: Det er kanskje en god ide å unngå å bruke nettverks-drive (som noen vir
 Flere verktøy for editering av asciidoc finnes. De fleste vil ha nytte av en editor som gir støtte til formatering og viser resultatet direkte (WYSIWIG). Anbefalt her:
 
 . AsciidocFX. #Mer info kommer.#
-. Atom.  #Mer info kommer.#
+. Atom...  #Mer info kommer.#
 
 
 == Klon GitHub-prosjektet til din maskin
