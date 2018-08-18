@@ -1,20 +1,21 @@
 :lang: no
 :attr_orig_language: no
 :attr_translation_status: incomplete
-:author_no: Direktoratet for forvaltning og ikt (Difi)
-:author_en: Agency for Public Management and eGovernment (Difi)
-:email: nasjonal.arkitektur@difi.no
+//:author: Erik
+//:email: erik.hagen@difi.no
 :revdate: 2018-08-06
 :doctitle_en: National Architecture Repository Norway 
 :doctitle_no: Norsk fellesoffentlig arkitekturbibliotek
 :keywords_no: Norsk, arkitekturbibliotek, offenlig sektor, virksomhetsarkitektur, NIF, samhandlingsarkitektur, rammeverk, GitHub
 :keywords_en: Norwegian, Architecture Repository, Public sector, Enterprise Architecture, NIF, Architecture Interoperability Framework, GitHub
+
+:attr-root-dir:
 include::common/includes/standardheader.adoc[]
-// Links block
 include::common/includes/commonlinks1.adoc[]
 
 :url_hvordan_opprette_github_bruker: https://www.wikihow.com/Create-an-Account-on-GitHub[Tips om å opprette github bruker]
 
+////
 :link_praktiske_tips_komme_igang_med_innholdsproduksjon: link:getting_started/Praktiske_tips_for_å_komme_igang.adoc[Praktiske tips for å komme i gang med GitHub og bidra med innhold]
 
 :link_dokumentasjonskonvensjoner: link:getting_started/dokumentasjonskonvensjoner.adoc[Dokumentasjonskonvensjoner]
@@ -22,7 +23,14 @@ include::common/includes/commonlinks1.adoc[]
 :link_grunnleggende_prinsipper_for_biblioteket: link:getting_started/grunnleggende_prinsipper_for_biblioteket.adoc[Grunnleggende prinsipper]
 
 :link_visjoner_for_biblioteket: link:getting_started/visjoner_for_biblioteket.adoc[Visjoner]
+////
+:link_praktiske_tips_komme_igang_med_innholdsproduksjon: <<./getting_started/Praktiske_tips_for_å_komme_igang.adoc#, Praktiske tips for å komme i gang med GitHub og bidra med innhold>>
 
+:link_dokumentasjonskonvensjoner: <<./getting_started/dokumentasjonskonvensjoner.adoc#, Dokumentasjonskonvensjoner>>
+
+:link_grunnleggende_prinsipper_for_biblioteket: <<./getting_started/grunnleggende_prinsipper_for_biblioteket.adoc#, Grunnleggende prinsipper>>
+
+:link_visjoner_for_biblioteket: <<./getting_started/visjoner_for_biblioteket.adoc#, Visjoner>>
 
 == Bakgrunn og formål
 Dette GitHub-biblioteket er opprettet av Difi våren 2018 for å samle dokumentasjon om virksomhetsarkitektur i offentlig sektor i Norge.

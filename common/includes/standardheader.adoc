@@ -2,9 +2,16 @@ ifeval::["{lang}" == "no"]
 ifdef::doctitle_no[]
 :doctitle: {doctitle_no}
 endif::[]
+//
+ifndef::author[]
+ifndef::author_no[]
+:author_no: Direktoratet for forvaltning og ikt (Difi)
+endif::[]
 ifdef::author_no[]
 :author: {author_no}
 endif::[]
+endif::author[]
+//
 ifdef::keywords_no[]
 :keywords: {keywords_no}
 endif::[]
@@ -14,9 +21,16 @@ ifeval::["{lang}" == "en"]
 ifdef::doctitle_en[]
 :doctitle: {doctitle_en}
 endif::[]
+ifndef::author[]
+ifndef::author_en[]
+:author_no: Direktoratet for forvaltning og ikt (Difi)
+:author_en: Agency for Public Management and eGovernment (Difi)
+endif::[]
 ifdef::author_en[]
 :author: {author_en}
 endif::[]
+endif::author[]
+//
 ifdef::keywords_en[]
 :keywords: {keywords_en}
 endif::[]
@@ -35,6 +49,9 @@ endif::output_dificonvention_errors[]
 ////
 ifdef::author[]
 {author} 
+endif::[]
+ifndef::email[]
+:email: nasjonal.arkitektur@difi.no
 endif::[]
 ifdef::revdate[]
 {revdate}
@@ -59,7 +76,10 @@ endif::[]
 :sectanchors:
 :sectnumlevels: 3
 :xrefstyle: short
-:imagesdir: common/images
+:imagesdir: ../common/images
+ifdef::attr-root-dir[]
+:imagesdir: ./common/images
+endif::[]
 // data-uri benyttes for å inkludere images i generert html-fil 
 :data-uri:
 :toc:

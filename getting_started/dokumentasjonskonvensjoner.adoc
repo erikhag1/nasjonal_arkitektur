@@ -1,11 +1,16 @@
 :lang: no
-:revdate: 2018-08-18
-:title_en: Introduction to Documentation conventions
-:title_no: Introduksjon til dokumentasjonskonvensjoner
-:keywords: GitHub, dokumentasjon, konvensjoner
+:attr_orig_language: no
+:attr_translation_status: incomplete
+:email: nasjonal.arkitektur@difi.no
+:revdate: 2018-08-06
+:doctitle_en: Introduction to Documentation conventions 
+:doctitle_no: Introduksjon til dokumentasjonskonvensjoner
+:keywords_no: GitHub, dokumentasjon, konvensjoner
+:keywords_en: Norwegian, Architecture Repository, Public sector, Enterprise Architecture, NIF, Architecture Interoperability Framework, GitHub
+include::..//common/includes/standardheader.adoc[]
+// Links block
+include::..//common/includes/commonlinks1.adoc[]
 
-include::common/includes/standardheader.adoc[]
-include::common/includes/commonlinks1.adoc[]
 
 == Generelt om dokumentasjonsformater, lagringsmedia og verktøy 
 
