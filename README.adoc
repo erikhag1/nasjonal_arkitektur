@@ -1,9 +1,16 @@
 :lang: no
+:attr_orig_language: no
+:attr_translation_status: incomplete
+:author_no: Direktoratet for forvaltning og ikt (Difi)
+:author_en: Agency for Public Management and eGovernment (Difi)
+:email: nasjonal.arkitektur@difi.no
 :revdate: 2018-08-06
-:title_en: National Architecture Repository Norway 
-:title_no: Norsk fellesoffenltig arkitekturbibliotek
-:keywords: Norsk, arkitekturbibliotek, offenlig sektor, virksomhetsarkitektur, NIF, samhandlingsarkitektur, GitHub
+:doctitle_en: National Architecture Repository Norway 
+:doctitle_no: Norsk fellesoffentlig arkitekturbibliotek
+:keywords_no: Norsk, arkitekturbibliotek, offenlig sektor, virksomhetsarkitektur, NIF, samhandlingsarkitektur, rammeverk, GitHub
+:keywords_en: Norwegian, Architecture Repository, Public sector, Enterprise Architecture, NIF, Architecture Interoperability Framework, GitHub
 include::common/includes/standardheader.adoc[]
+// Links block
 include::common/includes/commonlinks1.adoc[]
 
 :url_hvordan_opprette_github_bruker: https://www.wikihow.com/Create-an-Account-on-GitHub[Tips om å opprette github bruker]
@@ -12,8 +19,9 @@ include::common/includes/commonlinks1.adoc[]
 
 :link_dokumentasjonskonvensjoner: link:getting_started/dokumentasjonskonvensjoner.adoc[Dokumentasjonskonvensjoner]
 
-:link_konsepter_og_prinsipper: link:getting_started/konsepter_og_prinsipper.adoc[Konsepter og prinsipper]
+:link_grunnleggende_prinsipper_for_biblioteket: link:getting_started/grunnleggende_prinsipper_for_biblioteket.adoc[Grunnleggende prinsipper]
 
+:link_visjoner_for_biblioteket: link:getting_started/visjoner_for_biblioteket.adoc[Visjoner]
 
 
 == Bakgrunn og formål
@@ -31,14 +39,15 @@ NOTE: Det er også lagt opp til å tagge innhold med metadata, for å støtte s�
 
 
 == Ditt bidrag er ønsket
-Det legges opp til utstrakt samarbeid på tvers av av offentlig sektor for å etablere og vedlikeholde innhold i dette  arkitekturbiblioteket.
+Det legges opp til utstrakt samarbeid på tvers av av offentlig sektor for å etablere og vedlikeholde det fellesoffentlige arkitekturbiblioteket.
 
 Terskelen for å publisere innhold skal ikke være for høy. Eksempler og praksis må deles for å få fram god praksis, anbefalinger, retningslinjer og standarder.
 
 Gi beskjed via e-post til nasjonal_arkitektur@difi.no om du ønsker å bidra og vil ha skrivetilgang. Oppgi da ditt brukernavn på GitHub (se eventuelt {url_hvordan_opprette_github_bruker}).
 
-Se også 
+Se også: 
 
 1. {link_praktiske_tips_komme_igang_med_innholdsproduksjon}  
 2. {link_dokumentasjonskonvensjoner}
-3. {link_konsepter_og_prinsipper}
+3. {link_grunnleggende_prinsipper_for_biblioteket}
+4. {link_visjoner_for_biblioteket}

@@ -1,22 +1,50 @@
-// Tips: lang-attributten settes normalt fra asciidoctor kommandolinjen som f.eks."-a lang=en". I så fall overstyres parametersettingen som gjøres her; dvs. at følgende setting ":lang: no" kun fungerer som defaultverdi (nyttig for visning i WYSIWIG-editor)
-//:revdate: 2018-08-06
-//:title_en: How to get started
-//:title_no: Tips for å komme i gang
-//:keywords: GitHub, dokumentasjon
 ifeval::["{lang}" == "no"]
-= {title_no}
-Direktoratet for forvaltning og ikt (Difi)
-{revdate} 
+ifdef::doctitle_no[]
+:doctitle: {doctitle_no}
+endif::[]
+ifdef::author_no[]
+:author: {author_no}
+endif::[]
+ifdef::keywords_no[]
+:keywords: {keywords_no}
+endif::[]
+endif::[]
+//
+ifeval::["{lang}" == "en"]
+ifdef::doctitle_en[]
+:doctitle: {doctitle_en}
+endif::[]
+ifdef::author_en[]
+:author: {author_en}
+endif::[]
+ifdef::keywords_en[]
+:keywords: {keywords_en}
+endif::[]
+endif::[]
+//
+ifdef::doctitle[]
+= {doctitle}
+endif::[]
+////
+//:output_dificonvention_errors:
+ifdef::output_dificonvention_errors[]
+ifndef::doctitle[]
+[red small]__Difi convention error (standardheader.adoc): Missing "doctitle"__
+endif::doctitle[]
+endif::output_dificonvention_errors[]
+////
+ifdef::author[]
+{author} 
+endif::[]
+ifdef::revdate[]
+{revdate}
+endif::[]
+ifeval::["{lang}" == "no"]
 :toc-title: Innhold
 endif::[]
 ifeval::["{lang}" == "en"]
-= {title_en}
-Agency for Public Management and eGovernment (Difi)
-{revdate}
-//:keywords: GitHub, documentation
 :toc-title: Contents
 endif::[]
-//:description: Hvordan komme i gang - standarder - retningslinjer - praktiske tips
 //:doctype: article
 :icons: font
 //:docinfodir: ../common/meta
@@ -40,8 +68,46 @@ ifeval::["{toc}" == "macro"]
 toc::[]
 endif::[]
 ////
+
 image:difilogo.svg[image,width=169,height=66]
 
+//:include_implementation_notes:
+ifdef::include_implementation_notes[] 
+TIP: Implementation note, Erik, 2018-08-18: Consider introducing attributes to indicate the state of the translation and give hints to the user about that: attr_orig_language (normally  _no_ or _en_) and attr_translation_status (set to _complete_, _partial_ or _missing_).
+endif::include_implementation_notes[] 
+
+//:test_attr_translation_status:
+ifdef::test_attr_translation_status[] 
+:lang: en
+:attr_orig_language: no
+:attr_translation_status: incomplete
+endif::test_attr_translation_status[]
+
+ifdef::attr_translation_status[]
+// 
 ifeval::["{lang}" == "en"]
-_For english speakers: This document was originally written in the Norwegian language. The English translation may be incomplete._ 
+//
+ifeval::["{attr_orig_language}" != "en"]
+WARNING: This document was originally written in another language ({attr_orig_language}). The English translation is marked as 
+ifeval::["{attr_translation_status}" == "missing"] 
+__missing__. 
 endif::[]
+ifeval::["{attr_translation_status}" == "incomplete"] 
+__incomplete__. 
+endif::[]
+endif::[]
+endif::[]
+//
+
+ifeval::["{lang}" == "no"]
+ifeval::["{attr_orig_language}" != "no"]
+WARNING: Dette dokumentet ble opprinnelig skrevet på et annet språk ({attr_orig_language}). Norsk oversettelse er markert som 
+ifeval::["{attr_translation_status}" == "missing"] 
+__ikke oversatt__. 
+endif::[]
+ifeval::["{attr_translation_status}" == "incomplete"] 
+__uferdig__. 
+endif::[]
+endif::[]
+endif::[]
+endif::attr_translation_status[]
