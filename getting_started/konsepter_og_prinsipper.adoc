@@ -1,0 +1,15 @@
+:lang: no
+:revdate: 2018-08-18
+:title_en: Concepts and Principles
+:title_no: Konsepter og prinsipper
+:keywords: GitHub, dokumentasjon, konsepter, prinsipper
+
+include::common/includes/standardheader.adoc[]
+include::common/includes/commonlinks1.adoc[]
+
+== Konsepter - større sammenheng 
+
+== Prinsipper 
+* Skille mellom innhold og presentasjon - standardformat for innhold i biblioteket, som så kan oversettes til vilkårlig format for plublisering eller videre arbeid   
+* Levende dokumentasjon som oppdateres løpende - hovedregelen er at siste versjon gjelder  
+* Versjonering og historikk - mulig å gå tilbake og se tidligere versjoner

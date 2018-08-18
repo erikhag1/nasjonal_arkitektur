@@ -8,10 +8,12 @@ include::common/includes/commonlinks1.adoc[]
 
 :url_hvordan_opprette_github_bruker: https://www.wikihow.com/Create-an-Account-on-GitHub[Tips om å opprette github bruker]
 
-:link_praktiske_tips_komme_igang_med_innholdsproduksjon: link:getting_started/tips_for_å_komme_i_gang.adoc[Praktiske tips for å komme i gang med GitHub og bidra med innhold]
+:link_praktiske_tips_komme_igang_med_innholdsproduksjon: link:getting_started/Praktiske_tips_for_å_komme_igang.adoc[Praktiske tips for å komme i gang med GitHub og bidra med innhold]
 
-:link_dokumentasjonskonvensjoner:
-:link_konsepter_og_prinsipper:
+:link_dokumentasjonskonvensjoner: link:getting_started/dokumentasjonskonvensjoner.adoc[Dokumentasjonskonvensjoner]
+
+:link_konsepter_og_prinsipper: link:getting_started/konsepter_og_prinsipper.adoc[Konsepter og prinsipper]
+
 
 
 == Bakgrunn og formål
@@ -40,17 +42,3 @@ Se også
 1. {link_praktiske_tips_komme_igang_med_innholdsproduksjon}  
 2. {link_dokumentasjonskonvensjoner}
 3. {link_konsepter_og_prinsipper}
-
-
-
-
-
-== Grunnleggende konsepter og prinsipper
-Grunnleggende konsepter og prinsipper:
-
-* Skille mellom innhold og presentasjon - standardformat for innhold i biblioteket, som så kan oversettes til vilkårlig format for plublisering eller videre arbeid   
-* Levende dokumentasjon som oppdateres løpende - hovedregelen er at siste versjon gjelder  
-* Versjonering og historikk - mulig å gå tilbake og se tidligere versjoner
-
-Se [red yellow-background]#<<document-b.adoc#section-b,Konsepter, prinsipper og funksjonelle krav>># for mer informasjon.
-

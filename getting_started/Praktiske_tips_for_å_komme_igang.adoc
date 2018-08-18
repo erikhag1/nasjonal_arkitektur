@@ -1,0 +1,10 @@
+:lang: no
+:revdate: 2018-08-18
+:title_en: How to get started wit GitHub and content production 
+:title_no: Praktiske tips for å komme igang med GitHub og innholdsproduksjon
+:keywords: GitHub, dokumentasjon, konvensjoner
+
+include::common/includes/standardheader.adoc[]
+include::common/includes/commonlinks1.adoc[]
+
+== Github...
