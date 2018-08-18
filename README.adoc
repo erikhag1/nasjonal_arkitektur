@@ -1,5 +1,18 @@
-= Nasjonal arkitektur: Bibliotek for virksomhetsarkitektur i Norge  
-Difi, 2018-08-01
+:lang: no
+:revdate: 2018-08-06
+:title_en: National Architecture Repository Norway 
+:title_no: Norsk fellesoffenltig arkitekturbibliotek
+:keywords: Norsk, arkitekturbibliotek, offenlig sektor, virksomhetsarkitektur, NIF, samhandlingsarkitektur, GitHub
+include::common/includes/standardheader.adoc[]
+include::common/includes/commonlinks1.adoc[]
+
+:url_hvordan_opprette_github_bruker: https://www.wikihow.com/Create-an-Account-on-GitHub[Tips om å opprette github bruker]
+
+:link_praktiske_tips_komme_igang_med_innholdsproduksjon: link:getting_started/tips_for_å_komme_i_gang.adoc[Praktiske tips for å komme i gang med GitHub og bidra med innhold]
+
+:link_dokumentasjonskonvensjoner:
+:link_konsepter_og_prinsipper:
+
 
 == Bakgrunn og formål
 Dette GitHub-biblioteket er opprettet av Difi våren 2018 for å samle dokumentasjon om virksomhetsarkitektur i offentlig sektor i Norge.
@@ -9,27 +22,27 @@ Innholdet dreier seg primært om __samhandlingsarkitektur__, men er ikke begrens
 
 I tillegg til innholdet i dette biblioteket, vil det finnes mye stoff i tilsvarende biblioteker i de enkelte virksomhetene som også kan være av felles interesse. Det er et siktemål at alle virksomheter følger et sett av  retningslinjer for arkitekturdokumentasjon som gjør det enkelt å referere og integrere innhold på tvers.
 
+== Hvordan finne fram
+Mappestrukturen i biblioteket er bygget opp etter mønster av {url_togaf_92} og {url_norsk_arkitekturrammeverk_for_samhandling}.
+
+NOTE: Det er også lagt opp til å tagge innhold med metadata, for å støtte søk og alternative navigersmåter.
+
+
 == Ditt bidrag er ønsket
-Det legges opp til utstrakt samarbeid for å etablere og vedlikeholde innhold i biblioteket.
+Det legges opp til utstrakt samarbeid på tvers av av offentlig sektor for å etablere og vedlikeholde innhold i dette  arkitekturbiblioteket.
 
-Høy kvalitet tilstrebes, men terskelen for å publisere innhold i det nasjonale biblioteket skal ikke være for høy. Eksempler og god praksis må deles for å få fra beste praksis, anbefalinger, retningslinjer og standarder. 
+Terskelen for å publisere innhold skal ikke være for høy. Eksempler og praksis må deles for å få fram god praksis, anbefalinger, retningslinjer og standarder.
+
+Gi beskjed via e-post til nasjonal_arkitektur@difi.no om du ønsker å bidra og vil ha skrivetilgang. Oppgi da ditt brukernavn på GitHub (se eventuelt {url_hvordan_opprette_github_bruker}).
+
+Se også 
+
+1. {link_praktiske_tips_komme_igang_med_innholdsproduksjon}  
+2. {link_dokumentasjonskonvensjoner}
+3. {link_konsepter_og_prinsipper}
 
 
-Ditt bidrag er ønsket. Gi beskjed via e-post til erik.hagen@difi.no for å be om skrivetilgang. Oppgi da ditt brukernavn på GitHub.
 
-== Hvordan komme i gang
-Det skal være enkelt å komme i gang med å bidra til innhold i dette biblioteket. Se link:Bakgrunnsinformasjon/Tips_for_å_komme_i_gang.adoc[Tips for å komme i gang]
-
-////
-link:Tips_for_%C3%A5_komme_i_gang.adoc[Tips for å komme i gang]
-
-https://asciidoctor.org/docs/user-manual/#xref
-
-https://asciidoctor.org/docs/user-manual/#inter-document-cross-references
-
-* <<document-b.adoc#section-b,Tips for å skrive artikler>>.
-* <<document-b.adoc#section-b,Tips for å skrive dokumenter og bøker>>.
-////
 
 
 == Grunnleggende konsepter og prinsipper
@@ -40,23 +53,4 @@ Grunnleggende konsepter og prinsipper:
 * Versjonering og historikk - mulig å gå tilbake og se tidligere versjoner
 
 Se [red yellow-background]#<<document-b.adoc#section-b,Konsepter, prinsipper og funksjonelle krav>># for mer informasjon.
-
-== Struktur
-Mappestrukturen i biblioteket er bygget opp etter mønster av TOGAF og Norsk arkitekturrammeverk for samhandling.  
-
-En kan også tagge innhold med metadata og bruke dette for å navigere og søke.
-
-== Standarder, retningslinjer og anbefalinger
-=== Dokumentasjonsformater
-Alt nytt innhold skal lagres på gjeldende standard innholdsformater. Dette er blant annet Asciidoc for tekst og Archimate utvekslingsformat for arkitekturmodeller.
-
-Ut fra standardformatene i biblioteket kan det enkelt konverteres til andre formater for publisering eller videre arbeid. For publisering benyttes i utgangspunktet primært html5.
-
-Tidligere dokumentasjon i andre formater konvereres til gjeldende standarder ut fra kost-nytte-vurderinger. Det finnes f.eks. verktøy for konverting av Word-dokumenter til asciidoc, men noe manuelt arbeid må en uansett regne med.  
-
-NOTE: Det er mulig å lagre tradisjonelle dokumenter på github, slik som f.eks Word eller pdf, men dette gjøres i minst mulig grad. Andre teknologier er bedre egnet enn GitHub for lagring og søk i dokumenter. Total størrelse på Github-biblioteket bør dessuten begrenses, slik at det lar seg klone til den enkeltes lokale filområde (det er slik en jobber med innhold i github). 
-
-=== Annet
-Se [red yellow-background]#<<document-b.adoc#section-b,standarder, retningslinjer og anbefalinger>># for mer informasjon..
-
 

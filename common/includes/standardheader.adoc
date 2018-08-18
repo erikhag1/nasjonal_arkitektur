@@ -1,0 +1,47 @@
+// Tips: lang-attributten settes normalt fra asciidoctor kommandolinjen som f.eks."-a lang=en". I så fall overstyres parametersettingen som gjøres her; dvs. at følgende setting ":lang: no" kun fungerer som defaultverdi (nyttig for visning i WYSIWIG-editor)
+//:revdate: 2018-08-06
+//:title_en: How to get started
+//:title_no: Tips for å komme i gang
+//:keywords: GitHub, dokumentasjon
+ifeval::["{lang}" == "no"]
+= {title_no}
+Direktoratet for forvaltning og ikt (Difi)
+{revdate} 
+:toc-title: Innhold
+endif::[]
+ifeval::["{lang}" == "en"]
+= {title_en}
+Agency for Public Management and eGovernment (Difi)
+{revdate}
+//:keywords: GitHub, documentation
+:toc-title: Contents
+endif::[]
+//:description: Hvordan komme i gang - standarder - retningslinjer - praktiske tips
+//:doctype: article
+:icons: font
+//:docinfodir: ../common/meta
+//:docinfo:
+//:toc: macro
+//:sectnums:
+:leveloffset: +0
+:toclevels: 3
+:sectlinks:
+:linkattrs:
+:sectids:
+:sectanchors:
+:sectnumlevels: 3
+:xrefstyle: short
+:imagesdir: common/images
+// data-uri benyttes for å inkludere images i generert html-fil 
+:data-uri:
+:toc:
+////
+ifeval::["{toc}" == "macro"]
+toc::[]
+endif::[]
+////
+image:difilogo.svg[image,width=169,height=66]
+
+ifeval::["{lang}" == "en"]
+_For english speakers: This document was originally written in the Norwegian language. The English translation may be incomplete._ 
+endif::[]

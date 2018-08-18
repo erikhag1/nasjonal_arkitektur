@@ -1,46 +1,43 @@
-// Tips: lang-attributten settes normalt fra asciidoctor kommandolinjen som f.eks."-a lang=en". I så fall overstyres parametersettingen som gjøres her; dvs. at følgende setting ":lang: no" kun fungerer som defaultverdi (nyttig for visning i WYSIWIG-editor)
-:lang: no
-:funksjonsområde: kommunikasjon
-:målgruppe: Knut
-
+:lang: en
 :revdate: 2018-08-06
-ifeval::["{lang}" == "no"]
-= Tips for å komme i gang
-Direktoratet for fovaltning og ikt (Difi)
-{revdate} 
-:revremark: Initiell versjon
+:title_en: How to get started
+:title_no: Tips for å komme i gang
 :keywords: GitHub, dokumentasjon
+ifeval::["{lang}" == "no"]
+= {title_no}
+Direktoratet for forvaltning og ikt (Difi)
+{revdate} 
+:toc-title: Innhold
 endif::[]
 ifeval::["{lang}" == "en"]
-= How to get started
+= {title_en}
 Agency for Public Management and eGovernment (Difi)
 {revdate}
-:revremark: Initial revision
 :keywords: GitHub, documentation
+:toc-title: Contents
 endif::[]
 :description: Hvordan komme i gang - standarder - retningslinjer - praktiske tips
-:doctype: article
+:doctype: book
 :icons: font
-//:docinfodir: meta
+//:docinfodir: ../common/meta
 //:docinfo:
 :toc: macro
 //:sectnums:
 :leveloffset: +0
-:toc-title: Innhold
 :toclevels: 3
 :sectlinks:
+:linkattrs:
 :sectids:
 :sectanchors:
 :sectnumlevels: 3
 :xrefstyle: short
-:imagesdir: images
+:imagesdir: ../common/images
 // data-uri benyttes for å inkludere images i generert html-fil 
 :data-uri: 
 
-ifeval::["{toc}" == "macro"]
+ifeval::["{toc}" == "macrso"]
 toc::[]
 endif::[]
-// Note, Erik, 2018-08-11: Seems tricky to get the macro toc displayed; e.g. can't have it below the following logo image? So, go for ":toc: left" for now...
 
 image:difilogo.svg[image,width=169,height=66]
 
@@ -83,6 +80,7 @@ Flere verktøy for editering av asciidoc finnes. De fleste vil ha nytte av en ed
 
 . AsciidocFX. #Mer info kommer.#
 . Atom...  #Mer info kommer.#
+. stackedit.io
 
 
 == Klon GitHub-prosjektet til din maskin
@@ -100,6 +98,7 @@ Du kan gjøre det helt enkelt eller så avansert du måtte ønske, eller noe mid
 
 == Andre tips
 #Flere tips kommer her;)#
+
 
 
 
