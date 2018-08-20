@@ -103,31 +103,37 @@ ifdef::test_attr_translation_status[]
 :attr_translation_status: incomplete
 endif::test_attr_translation_status[]
 
+ifeval::["{attr_translation_status}" == ""] 
+:attr_translation_status: -
+endif::[]
+ifeval::["{attr_translation_status}" == "-"] 
+:attr_translation_status: missing
+endif::[]
+
+
 ifdef::attr_translation_status[]
 // 
 ifeval::["{lang}" == "en"]
 //
 ifeval::["{attr_orig_language}" != "en"]
-WARNING: This document was originally written in another language ({attr_orig_language}). The English translation is marked as 
-ifeval::["{attr_translation_status}" == "missing"] 
-__missing__. 
-endif::[]
-ifeval::["{attr_translation_status}" == "incomplete"] 
-__incomplete__. 
-endif::[]
+WARNING: This document was originally written in another language ({attr_orig_language}). 
+The English translation is marked as __{attr_translation_status}__
+.
 endif::[]
 endif::[]
 //
 
 ifeval::["{lang}" == "no"]
 ifeval::["{attr_orig_language}" != "no"]
-WARNING: Dette dokumentet ble opprinnelig skrevet på et annet språk ({attr_orig_language}). Norsk oversettelse er markert som 
+WARNING: Dette dokumentet ble opprinnelig skrevet på et annet språk ({attr_orig_language}). Norsk oversettelse er markert som __{attr_translation_status}__
 ifeval::["{attr_translation_status}" == "missing"] 
-__ikke oversatt__. 
+(__ikke oversatt__)
 endif::[]
 ifeval::["{attr_translation_status}" == "incomplete"] 
-__uferdig__. 
+(__uferdig__)
+endif::[]
+.
 endif::[]
 endif::[]
-endif::[]
+
 endif::attr_translation_status[]

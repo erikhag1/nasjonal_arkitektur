@@ -5,9 +5,9 @@
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.7.1">
-<meta name="keywords" content="dokumentasjon, konvensjoner, retningslinjer">
+<meta name="keywords" content="dokumentasjon, GitHub, innholdsproduksjon">
 <meta name="author" content="Direktoratet for forvaltning og ikt (Difi)">
-<title>Introduksjon til dokumentasjonskonvensjoner</title>
+<title>Praktiske tips for å komme igang med GitHub og innholdsproduksjon</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
@@ -435,7 +435,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </head>
 <body class="article">
 <div id="header">
-<h1>Introduksjon til dokumentasjonskonvensjoner</h1>
+<h1>Praktiske tips for å komme igang med GitHub og innholdsproduksjon</h1>
 <div class="details">
 <span id="author" class="author">Direktoratet for forvaltning og ikt (Difi)</span><br>
 <span id="email" class="email"><a href="mailto:nasjonal.arkitektur@difi.no">nasjonal.arkitektur@difi.no</a></span><br>
@@ -444,13 +444,12 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="toc" class="toc">
 <div id="toctitle">Innhold</div>
 <ul class="sectlevel1">
-<li><a href="#_generelt_om_dokumentasjonsformater_lagringsmedia_og_verktøy">Generelt om dokumentasjonsformater, lagringsmedia og verktøy</a></li>
-<li><a href="#_innholdsproduksjon_i_markdown_format">Innholdsproduksjon i Markdown format</a></li>
-<li><a href="#_innholdsproduksjon_i_asciidoc_format">Innholdsproduksjon i Asciidoc format</a></li>
-<li><a href="#_archimate_modellering">Archimate-modellering</a></li>
-<li><a href="#_bpmn_modellering">BPMN-modellering</a></li>
-<li><a href="#_uml_modellering">UML-modellering</a></li>
-<li><a href="#_annet">Annet</a></li>
+<li><a href="#_etabler_lokal_filmappe_for_kloning_av_github_filer">Etabler lokal filmappe for kloning av github-filer</a></li>
+<li><a href="#_installer_github_desktop">Installer GitHub Desktop</a></li>
+<li><a href="#_installer_redigeringsverktøy">Installer redigeringsverktøy</a></li>
+<li><a href="#_klon_github_prosjektet_til_din_maskin">Klon GitHub-prosjektet til din maskin</a></li>
+<li><a href="#_start_å_skrive">Start å skrive</a></li>
+<li><a href="#_andre_tips">Andre tips</a></li>
 </ul>
 </div>
 </div>
@@ -463,26 +462,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect1">
-<h2 id="_generelt_om_dokumentasjonsformater_lagringsmedia_og_verktøy"><a class="anchor" href="#_generelt_om_dokumentasjonsformater_lagringsmedia_og_verktøy"></a><a class="link" href="#_generelt_om_dokumentasjonsformater_lagringsmedia_og_verktøy">Generelt om dokumentasjonsformater, lagringsmedia og verktøy</a></h2>
+<h2 id="_etabler_lokal_filmappe_for_kloning_av_github_filer"><a class="anchor" href="#_etabler_lokal_filmappe_for_kloning_av_github_filer"></a><a class="link" href="#_etabler_lokal_filmappe_for_kloning_av_github_filer">Etabler lokal filmappe for kloning av github-filer</a></h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Eksisterende innhold i diverse formater og verktøy for tekst og multimedia bør kunne lenkes til fra innhold og oversikter i det GitHub-baserte arkitekturbiblioteket, uten at filene flyttes tli GitHub eller konverteres til nye formater. Se <mark>TBD</mark> for mer om dette.</p>
-</div>
-<div class="paragraph">
-<p>Alt nytt innhold skal lagres på gjeldende standard innholdsformater, som er:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Tekst og multimedia: Både Markdown og Asciidoc kan benyttes, men Asciidoc anbefales. Begge disse formatene støttes på GitHub, dvs. at kildefilene kan vises direkte med en layout som er nær opp til det en vil få ved generering av resultatfiler i html. Markdown er per 2018 mest utbredt blant utviklere, men har visse begrensinger. Asciidoc gir større muligheter samtidig som det er (nesten) like lett å komme igang med som Markdown for enkle formål.</p>
-<div class="paragraph">
-<p>Som format for bildefiler anbefales svg.</p>
-</div>
-<div class="paragraph">
-<p>Video: <mark>TBD</mark></p>
-</div>
-</li>
-</ul>
+<p>Lag en filmappe som hjemmeområde for å arbeide lokalt med github-filer.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -491,35 +474,29 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-Mange  har sterke synspunkter om hva som burde være "vår" standard - Markdown eller Asciidoc. Dette er bakgrunnen for at det i det minste inntil videre åpnes for begge deler, selv om det gir risiko for ekstrajobb med opprydding i neste omgang. Det viktigste er uansett at "alle" som vil dokumentere, får det gjort.
+Om du bruker lange navn og dyp mappestruktur i Windows, kan du få problemer med en begrensning på 260
+karakterer i total lengde på filnavn. I og med Windows 10 kan denne begrensningen oppheves. Se f.eks.
+<a href="https://www.howtogeek.com/266621/how-to-make-windows-10-accept-file-paths-over-260-characters/" class="bare">https://www.howtogeek.com/266621/how-to-make-windows-10-accept-file-paths-over-260-characters/</a> for en oppskrift på
+hvordan dette kan gjøres.<br>
+<br>
+Kort fortalt: På Windows 10 Enterprise kan du kjøre gpedit.msc og endre Aktiver lange Win32 baner under
+Datamaskinkonfigurasjon, Administrative maler, System, Filsystem. Du må restarte eller logge av og på for at endringen skal tre i kraft.<br>
+<br>
+<mark>Overse denne merknaden inntil videre - det er kanskje ikke et problem i praksis. Tips vil flyttes til annet sted&#8230;&#8203;</mark>
 </td>
 </tr>
 </table>
 </div>
-<div class="ulist">
-<ul>
-<li>
-<p>Arkitekturmodellering: Arcimate-standarden benyttes som notasjon. Modellene skal tilgjengeliggjøres i html-format, i tillegg til lagring på  standard Archimate utvekslingsformat. Dessuten skal modellene lagres på det originale formatet de ble produsert i. Det er også ønskelig at det gjøres konvertering til formater som kan åpnes direkte i de de mest utbredte verktøyene (per 2018 Archi og eventuelt Spacrx Enterprise Architect).</p>
-</li>
-<li>
-<p>Prosessmodeller: BPMN&#8230;&#8203;</p>
-</li>
-<li>
-<p>Datamodeller: UML Class Diagrams&#8230;&#8203;</p>
-</li>
-<li>
-<p>Regelmodellering: DMN&#8230;&#8203;</p>
-</li>
-</ul>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_installer_github_desktop"><a class="anchor" href="#_installer_github_desktop"></a><a class="link" href="#_installer_github_desktop">Installer GitHub Desktop</a></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>GitHub Desktop anbefales for å klone og oppdatere GitHub-biblioteker.</p>
 </div>
 <div class="paragraph">
-<p>Ut fra standardformatene i biblioteket kan det enkelt konverteres til andre formater for publisering eller videre arbeid. For publisering benyttes i utgangspunktet primært html5.</p>
-</div>
-<div class="paragraph">
-<p>Tidligere dokumentasjon i andre formater konvereres til gjeldende standarder ut fra kost-nytte-vurderinger. Det finnes f.eks. verktøy for konverting av Word-dokumenter til asciidoc, men noe manuelt arbeid må en uansett regne med.</p>
-</div>
-<div class="paragraph">
-<p>Dokumentasjon i andre formater enn standard Asciidoc (eller Markdown) som inngår som en integret del av det nasjonale arkitekturbiblioteket, slik som f.eks. Word eller pdf, lagres i Onedrive i tilsvarende mappestruktur som i GitHub og kan lenkes til som ønsket.</p>
+<p><mark>Tips om nedlasting og bruk kommer her</mark></p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -528,7 +505,10 @@ Mange  har sterke synspunkter om hva som burde være "vår" standard - Markdown 
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-Det er mulig å lagre tradisjonelle dokumenter på github, slik som f.eks Word eller pdf, men dette gjøres i minst mulig grad. Andre teknologier er bedre egnet enn GitHub for lagring og søk i dokumenter. Total størrelse på Github-biblioteket bør dessuten begrenses, slik at det lar seg klone til den enkeltes lokale filområde (det er slik en jobber med innhold i github).
+GitHub desktop kan av og til ha problemer med å aksessere .gitconfig-filen. Dette kan trolig fikses ved å opprette en systemvariabel HOME til den mappen du har opprettet som
+hjemmeområde for dine lokale GitHub-filer (bruk Kontrollpanel, System, Avanserte systeminnstillinger, miljøvariabler).<br>
+<br>
+Tips: Det er kanskje en god ide å unngå å bruke nettverks-drive (som noen virksomheter bruker som default for Dokumenter)? Bruk kanskje heller en katalog direkte under ditt brukernavn på C:\Users? Se også  <a href="https://github.com/desktop/desktop/issues/4119" class="bare">https://github.com/desktop/desktop/issues/4119</a>.
 </td>
 </tr>
 </table>
@@ -536,64 +516,70 @@ Det er mulig å lagre tradisjonelle dokumenter på github, slik som f.eks Word e
 </div>
 </div>
 <div class="sect1">
-<h2 id="_innholdsproduksjon_i_markdown_format"><a class="anchor" href="#_innholdsproduksjon_i_markdown_format"></a><a class="link" href="#_innholdsproduksjon_i_markdown_format">Innholdsproduksjon i Markdown format</a></h2>
+<h2 id="_installer_redigeringsverktøy"><a class="anchor" href="#_installer_redigeringsverktøy"></a><a class="link" href="#_installer_redigeringsverktøy">Installer redigeringsverktøy</a></h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Marddown kan brukes</p>
+<p>Flere verktøy for editering av asciidoc finnes. De fleste vil ha nytte av en editor som gir støtte til formatering og viser resultatet direkte (WYSIWIG). Anbefalt her:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>AsciidocFX. <mark>Mer info kommer.</mark></p>
+</li>
+<li>
+<p>Atom&#8230;&#8203;  <mark>Mer info kommer.</mark></p>
+</li>
+<li>
+<p>stackedit.io</p>
+</li>
+</ol>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_innholdsproduksjon_i_asciidoc_format"><a class="anchor" href="#_innholdsproduksjon_i_asciidoc_format"></a><a class="link" href="#_innholdsproduksjon_i_asciidoc_format">Innholdsproduksjon i Asciidoc format</a></h2>
+<h2 id="_klon_github_prosjektet_til_din_maskin"><a class="anchor" href="#_klon_github_prosjektet_til_din_maskin"></a><a class="link" href="#_klon_github_prosjektet_til_din_maskin">Klon GitHub-prosjektet til din maskin</a></h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p><mark>TBD</mark></p>
+<p>Med Github desktop: File | Clone a repository</p>
+</div>
+<div class="paragraph">
+<p><mark>Mer info kommer.</mark></p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_archimate_modellering"><a class="anchor" href="#_archimate_modellering"></a><a class="link" href="#_archimate_modellering">Archimate-modellering</a></h2>
+<h2 id="_start_å_skrive"><a class="anchor" href="#_start_å_skrive"></a><a class="link" href="#_start_å_skrive">Start å skrive</a></h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p><mark>TBD</mark></p>
+<p>Du kan gjøre det helt enkelt eller så avansert du måtte ønske, eller noe midt i mellom. Her er noen tips:</p>
 </div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_bpmn_modellering"><a class="anchor" href="#_bpmn_modellering"></a><a class="link" href="#_bpmn_modellering">BPMN-modellering</a></h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p><mark>TBD</mark></p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_uml_modellering"><a class="anchor" href="#_uml_modellering"></a><a class="link" href="#_uml_modellering">UML-modellering</a></h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p><mark>TBD</mark></p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_annet"><a class="anchor" href="#_annet"></a><a class="link" href="#_annet">Annet</a></h2>
-<div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p>Risikomodellering: <mark>TBD</mark></p>
+<p><a href="Tips_for_å_skrive_artikler_eller_kapitler.adoc">Tips for å skrive enkle artikler eller kapitler</a></p>
 </li>
 <li>
-<p>&#8230;&#8203;</p>
+<p><a href="Tips_for_å_skrive_dokumenter_eller_bøker.adoc">Tips for å skrive dokumenter eller bøker</a></p>
+</li>
+<li>
+<p>Avanserte tips for innholdsproduksjon (<mark>kommer</mark>)</p>
 </li>
 </ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_andre_tips"><a class="anchor" href="#_andre_tips"></a><a class="link" href="#_andre_tips">Andre tips</a></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><mark>Flere tips kommer her;)</mark></p>
 </div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2018-08-18 22:06:58 Vest-Europa (sommertid)
+Last updated 2018-08-18 22:55:32 Vest-Europa (sommertid)
 </div>
 </div>
 </body>

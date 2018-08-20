@@ -1,20 +1,18 @@
 :lang: no
 :attr_orig_language: no
 :attr_translation_status: incomplete
-:email: nasjonal.arkitektur@difi.no
 :revdate: 2018-08-06
 :doctitle_en: Introduction to Documentation conventions 
 :doctitle_no: Introduksjon til dokumentasjonskonvensjoner
-:keywords_no: GitHub, dokumentasjon, konvensjoner
-:keywords_en: Norwegian, Architecture Repository, Public sector, Enterprise Architecture, NIF, Architecture Interoperability Framework, GitHub
+:keywords_no: dokumentasjon, konvensjoner, retningslinjer
+:keywords_en: documentation, conventions, guidelines
 include::..//common/includes/standardheader.adoc[]
-// Links block
 include::..//common/includes/commonlinks1.adoc[]
 
 
 == Generelt om dokumentasjonsformater, lagringsmedia og verktøy 
 
-Eksisterende innhold i diverse formater og verktøy for tekst og multimedia kan lenkes til innhold og oversikter i det GitHub-baserte arkitekturbiblioteket, uten at filene flyttes tli GitHub eller konverteres til nye formater. Se #TBD# for mer om dette.
+Eksisterende innhold i diverse formater og verktøy for tekst og multimedia bør kunne lenkes til fra innhold og oversikter i det GitHub-baserte arkitekturbiblioteket, uten at filene flyttes tli GitHub eller konverteres til nye formater. Se #TBD# for mer om dette.
 
 Alt nytt innhold skal lagres på gjeldende standard innholdsformater, som er: 
 
@@ -33,10 +31,7 @@ NOTE: Mange  har sterke synspunkter om hva som burde være "vår" standard - Mar
 
 * Datamodeller: UML Class Diagrams...
 
-* Regelmodelleong: DMN...
-
-* Risikomodellering: #TBD#
-
+* Regelmodellering: DMN...
 
 
 Ut fra standardformatene i biblioteket kan det enkelt konverteres til andre formater for publisering eller videre arbeid. For publisering benyttes i utgangspunktet primært html5.
@@ -49,13 +44,19 @@ NOTE: Det er mulig å lagre tradisjonelle dokumenter på github, slik som f.eks 
 
 == Innholdsproduksjon i Markdown format
 Marddown kan brukes 
+
 == Innholdsproduksjon i Asciidoc format
+#TBD#
 
 == Archimate-modellering
+#TBD#
 
 == BPMN-modellering
+#TBD#
 
 == UML-modellering
+#TBD#
 
 == Annet
-Det er 
+* Risikomodellering: #TBD#
+* ...

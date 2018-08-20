@@ -1,17 +1,24 @@
-= Tips for å skrive artikler eller kapitler
-Erik Hagen, erik.hagen@difi.no, 2018-08-12
-:imagesdir: images
-:nasjonalt_arkitekurbibliotek: https://github.com/difi/nasjonal_arkitektur[nasjonalt arkitekturbibliotek på GitHub].
-
-NOTE: Denne artikkelen er et kapittel i Difis veiledning for dokumentasjon i {nasjonalt_arkitekurbibliotek} 
+:doctitle: Tips for å skrive enkle dokumenter
+:revdate: 2018-08-06
+:keywords: dokumentasjon, asciidoc, tips, maler
+include::..//common/includes/standardheader.adoc[]
 
 Skriv det ned! Det skal være enkelt å gjøre, enten det er en huskelapp, en blogg eller en seksjon om noe som i neste omgang kanskje skal inngå som et kapittel i et større dokument eller en bok. 
 
-Vi har standardisert på asciidoc som dokumentasjonsformat. Det betyr at alt som skrives kan konverteres til ønsket format, som f.eks. pdf eller html, eller mer avanserte formater som f.eks. docbook eller epub.
+Du kan velge å bruke en standard teksteditor som f.eks, Notepad og selv angi koder for å angi formatering og mening. 
 
-Denne artikkelen er et eksempel på hvordan det kan gjøres, med bare noen få enkle grep.
+Du kan også velge å bruke en mer avansert editor som f.eks. AsciidocFX, som gir deg et brukergrensesnitt som likner noe på Word, men som etter litt tilvenning gir deg bedre kontroll over resultatet. Du skriver innhold og "kommandoer" i ett vindu og ser umiddelbart en forhåndsvisning av resultatet i et annet vindu. For noen av de vanligste operasjonene har du knapper i en verktøylinje som i Word. Dette dekker de mest elementære behovene, slik som blant annet tekstsformatering, lister, tabeller og insetting av bilder.
 
-Om du bruker en editor som f.eks. AsciidocFX (flere finnes), har du  et brukergrensesnitt som gir deg direkte forhåndsvisning og noen knapper for å sette inn lenker og formatere teksten, uten at du må huske på syntaksen i Asccidoc. For de fleste vanlige operasjoner er på den annen side syntaksen såpass enkel at de fleste raskt lærer seg det viktigste.
+Her er noen maler for å skrive enkle dokumenter:
+    
+    * Mal for enkel artikkel. Eksempel: #TBD#
+    * Mal for enkel blogg. Eksempel:  #TBD#
+    * Mal for enkelt notat.Eksempel:  #TBD#
+    * Mal for enkelt møtereferat. Eksempel: #TBD# 
+
+////
+=======================
+ALT NEDENFOR ER GAMMELT - SLETTES ELLET FLYTTES...
 
 Her følger noen enkle tips:
 
@@ -41,6 +48,4 @@ I mellomtiden, se
 
 * https://asciidoctor.org/docs/user-manual/[Asciidoctor User Manual].
 * ...
-
-
-
+////

@@ -1,12 +1,21 @@
 :lang: no
-:revdate: 2018-08-18
-:title_en: Visions for the Architecture Repository
-:title_no: Visjoner for nasjonalt  arkitekturbibliotek
-:keywords: GitHub, dokumentasjon, konsepter, prinsipper
+:attr_orig_language: no
+:attr_translation_status: incomplete
+:revdate: 2018-08-06
+:doctitle_en: Visions for the Architecture Repository
+:doctitle_no: Visjoner for nasjonalt  arkitekturbibliotek
+:keywords_no: GitHub, dokumentasjon, visjoner
+:keywords_en: GitHub, documentation, vision
+include::..//common/includes/standardheader.adoc[]
+include::..//common/includes/commonlinks1.adoc[]
 
-include::common/includes/standardheader.adoc[]
-include::common/includes/commonlinks1.adoc[]
 
-* Skille mellom innhold og presentasjon - standardformat for innhold i biblioteket, som så kan oversettes til vilkårlig format for plublisering eller videre arbeid   
-* Levende dokumentasjon som oppdateres løpende - hovedregelen er at siste versjon gjelder  
-* Versjonering og historikk - mulig å gå tilbake og se tidligere versjoner
+Det skisseres her et overordnet målbilde som er en kombinasjon av langsiktige visjoner og mer klare siktemål som det kan arbeides mot på kort sikt. Det skilles likevel ikke her mellom hva som er hva, og vi kaller derfor alt visjoner (sysonymer: mål, resultater, outcome).
+
+Semantisk tagging av informasjonselementer:: 
+
+    #TBD# Kladd: Alle informasjonselementer kan tagges med attributter som forteller om innholdet. 
+
+Lenkede data:: 
+
+    #TBD# Kladd: Informasjonselementer med mer eller mindre klart semantisk innhold knyttes sammen via relasjoner. Hver relasjon har minst to sider. Straks det er angitt en relasjon fra et objekt til et annet 
