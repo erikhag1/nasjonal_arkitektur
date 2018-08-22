@@ -9,12 +9,12 @@
 :keywords_no: Norsk, arkitekturbibliotek, offenlig sektor, virksomhetsarkitektur, NIF, samhandlingsarkitektur, rammeverk, GitHub
 :keywords_en: Norwegian, Architecture Repository, Public sector, Enterprise Architecture, NIF, Architecture Interoperability Framework, GitHub,
 //Sett kun for filer på rotnivå, der det ikke fungerer å  angi path som "../"
-:attr-root-dir:
+//:attr-root-dir:
 
 :preamble: Test innledningsvis beskrivelse med større skrift, før eventuelle kapitler (preamble)
 
-include::common/includes/standardheader.adoc[]
-include::common/includes/commonlinks1.adoc[]
+include::../common/includes/standardheader.adoc[]
+include::../common/includes/commonlinks1.adoc[]
 
 :url_hvordan_opprette_github_bruker: https://www.wikihow.com/Create-an-Account-on-GitHub[Tips om å opprette github bruker]
 

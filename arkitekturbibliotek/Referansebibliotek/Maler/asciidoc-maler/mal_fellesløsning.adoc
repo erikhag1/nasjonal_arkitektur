@@ -1,6 +1,6 @@
-:description: This is a simple template for articles to be written in Norwegian and English, with Norwegian being the original language and English being a translation. Yoy may delete this description or substitute it for a short description of your own. See https://asciidoctor.org/docs/user-manual/#description[Asciidocto user manual] for more info about the description attribute
+:description: This is a simple template for articles to be written in Norwegian and English, with Norwegian being the original language and English being a translation. You may delete this description or substitute it for a short description of your own. See https://asciidoctor.org/docs/user-manual/#description[Asciidocto user manual] for more info about the description attribute
 //
-:lang: en
+:lang: no
 :attr_orig_language: no
 // For :attr_translation_status:. use "-" for "missing", "+" for "incomplete" and "v" for "done"
 :attr_translation_status: -
