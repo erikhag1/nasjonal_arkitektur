@@ -58,7 +58,6 @@ ifdef::revdate[]
 endif::[]
 ifndef::revdate[]
 endif::[]
-
 ifeval::["{lang}" == "no"]
 :toc-title: Innhold
 endif::[]
@@ -144,4 +143,4 @@ endif::[]
 endif::[]
 endif::[]
 
-endif::attr_translation_status[]
+endif::difi_translation_status[]

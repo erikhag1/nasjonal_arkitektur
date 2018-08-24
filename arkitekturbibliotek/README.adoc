@@ -1,14 +1,14 @@
 :lang: no
 :difi_orig_language: no
 :difi_translation_status: incomplete
-:doctitle_en: Norwegian National Architecture Repository 
 :doctitle_no: Norsk fellesoffentlig arkitekturbibliotek
 :keywords_no: Norsk, arkitekturbibliotek, offenlig sektor, virksomhetsarkitektur, NIF, samhandlingsarkitektur, rammeverk, GitHub
+:doctitle_en: Norwegian National Architecture Repository 
 :keywords_en: Norwegian, Architecture Repository, Public sector, Enterprise Architecture, NIF, Architecture Interoperability Framework, GitHub,
-:preamble: Arkitekturdokumentasjon - modeller, standarder, referansearkitekturer, veiledninger, anbefalinger, tips, maler og annet av felles interesse på tvers av offentlig sektor i Norge
-
+:preamble: Arkitekturdokumentasjon - modeller, standarder, referansearkitekturer, veiledninger, anbefalinger, tips, maler og annet av  interesse på tvers av offentlig (og privat) sektor i Norge
 include::../felles/includes/standardheader.adoc[]
 include::../felles/includes/commonlinks1.adoc[]
+
 
 :path_arkitekturbibliotek_brukerveiledning: {path_solution_building_blocks}/Arkitekturbibliotek_på_github.difi.no/Brukerveiledning
 
@@ -39,9 +39,9 @@ Mappestrukturen i biblioteket er bygget opp etter mønster av {url_togaf_92} og 
 
 Her er en overordnet kapittelinndeling: #TBD#
 
-NOTE: Det er også lagt opp til å tagge innhold med metadata, for å støtte søk og alternative navigersmåter.
+NOTE: Det er også lagt opp til å tagge innhold med metadata, for å støtte søk og alternative navigeringsmåter.
 
-NOTE: Komplett innholdsfortegnelse...
+NOTE: Lenke til komplett innholdsfortegnelse: ...
 
 
 == Ditt bidrag er ønsket
@@ -49,7 +49,7 @@ Det legges opp til utstrakt samarbeid på tvers av av offentlig sektor for å et
 
 Terskelen for å publisere innhold skal ikke være for høy. Eksempler og praksis må deles for å få fram god praksis, anbefalinger, retningslinjer og standarder.
 
-Gi beskjed via e-post til nasjonal_arkitektur@difi.no om du ønsker å bidra og vil ha skrivetilgang. Oppgi da ditt brukernavn på GitHub (se eventuelt {url_hvordan_opprette_github_bruker}).
+Gi beskjed via e-post til nasjonalarkitektur@difi.no om du ønsker å bidra og vil ha skrivetilgang. Oppgi da ditt brukernavn på GitHub (se eventuelt {url_hvordan_opprette_github_bruker}).
 
 Se også: 
 

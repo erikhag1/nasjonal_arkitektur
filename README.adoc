@@ -8,7 +8,7 @@
 :email: your.name@company.no
 ////
 
-:doctitle_no: Nasjonal arkitektur p GitHub
+:doctitle_no: Nasjonal arkitektur på GitHub
 :keywords_no: Nasjonal arkitektur
 :doctitle_en: English title TBD  
 :keywords_en: English keywords TBD
@@ -19,4 +19,11 @@ include::./felles/includes/standardheader.adoc[]
 include::./felles/includes/commonlinks1.adoc[]
 
 // Article contents written below
-__Nasjonal arkitektur på GitHub__ omfatter i utgangspunktet nasjonalt arkitekturbibliotek og ...   
+Under __Nasjonal arkitektur på GitHub__ finnes
+
+:Norsk_fellesoffentlig_arkitekturbibliotek: <<./arkitekturbibliotek/README.adoc#, Norsk fellesoffentlig arkitekturbibliotek>>
+
+1. {Norsk_fellesoffentlig_arkitekturbibliotek}
+2. Arbeidsområder for prosjekter
+3. Personlige arbeidsområder
+
