@@ -1,17 +1,11 @@
 :lang: no
-:attr_orig_language: no
-:attr_translation_status: incomplete
-//:author: Erik
-//:email: erik.hagen@difi.no
-:revdate: 2018-08-06
-:doctitle_en: National Architecture Repository Norway 
+:difi_orig_language: no
+:difi_translation_status: incomplete
+:doctitle_en: Norwegian National Architecture Repository 
 :doctitle_no: Norsk fellesoffentlig arkitekturbibliotek
 :keywords_no: Norsk, arkitekturbibliotek, offenlig sektor, virksomhetsarkitektur, NIF, samhandlingsarkitektur, rammeverk, GitHub
 :keywords_en: Norwegian, Architecture Repository, Public sector, Enterprise Architecture, NIF, Architecture Interoperability Framework, GitHub,
-//Sett kun for filer på rotnivå, der det ikke fungerer å  angi path som "../"
-//:attr-root-dir:
-
-:preamble: Test innledningsvis beskrivelse med større skrift, før eventuelle kapitler (preamble)
+:preamble: Arkitekturdokumentasjon - modeller, standarder, referansearkitekturer, veiledninger, anbefalinger, tips, maler og annet av felles interesse på tvers av offentlig sektor i Norge
 
 include::../felles/includes/standardheader.adoc[]
 include::../felles/includes/commonlinks1.adoc[]

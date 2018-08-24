@@ -1,6 +1,6 @@
 :lang: no
-:attr_orig_language: no
-:attr_translation_status: -
+:difi_orig_language: no
+:difi_translation_status: -
 
 //// 
 // You may override the default author and email, normally displayed just below the heading
@@ -8,16 +8,15 @@
 :email: your.name@company.no
 ////
 
-:doctitle_no: Nasjonal arkitektur
+:doctitle_no: Nasjonal arkitektur p GitHub
 :keywords_no: Nasjonal arkitektur
 :doctitle_en: English title TBD  
 :keywords_en: English keywords TBD
 
 :preamble: Standarder, veiledninger, anbefalinger, tips, maler og annet av felles interesse på tvers av offentlig sektor i Norge
 
-include::../felles/includes/standardheader.adoc[]
-include::../felles/includes/commonlinks1.adoc[]
+include::./felles/includes/standardheader.adoc[]
+include::./felles/includes/commonlinks1.adoc[]
 
 // Article contents written below
-...
-
+__Nasjonal arkitektur på GitHub__ omfatter i utgangspunktet nasjonalt arkitekturbibliotek og ...   

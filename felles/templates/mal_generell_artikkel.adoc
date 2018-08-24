@@ -8,8 +8,8 @@
 :email: your.name@company.no
 ////
 
-:doctitle_no: Løsningslandskap
-:keywords_no: Løsningslandskap, arkitekturbibliotek
+:doctitle_no: Mal for generell artikkel
+:keywords_no: Mal, Generell artikkel
 :doctitle_en: English title TBD  
 :keywords_en: English keywords TBD
 
