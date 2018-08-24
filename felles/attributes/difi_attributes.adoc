@@ -1,0 +1,9 @@
+//Attributes with deafult values:
+
+:difi_template: simple_article.adoc
+
+
+
+:difi_ attr_orig_language: no
+:difi_ attr_translation_status: -
+:difi_ test_attr_translation_status!:
