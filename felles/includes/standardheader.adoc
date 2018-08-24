@@ -84,19 +84,20 @@ ifdef::attr-root-dir[]
 :imagesdir: ./felles/images
 endif::[]
 ////
-// data-uri benyttes for å inkludere images i generert html-fil 
-:data-uri:
+// data-uri benyttes for å inkludere images i generert html-fil :data-uri:
 :toc:
+
 ifdef::preamble[]
 {preamble}
 endif::[]
+
 ////
 ifeval::["{toc}" == "macro"]
 toc::[]
 endif::[]
 ////
 
-image:difilogo.svg[image,width=169,height=66]
+//image:difilogo.svg[image,width=169,height=66]
 
 //:difi_include_implementation_notes:
 ifdef::difi_include_implementation_notes[] 

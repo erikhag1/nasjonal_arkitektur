@@ -1,23 +1,19 @@
 :lang: no
 :difi_orig_language: no
-:difi_translation_status: -
-
-:difi_template: personlig_kladdeområde
-
-// You may override the default author and email, which is normally displayed just below the document header (if present)
-:author: Erik hagen
-:email: erik.hagene@difi.no
-
+:difi_translation_status: incomplete
 :doctitle_no: Brukerområder
 :keywords_no: Kladdeområde
 :doctitle_en: English title TBD  
 :keywords_en: English keywords TBD
 
-:preamble: sadsadsad
+:preamble: Personlige områder for ad hoc eksperimentering og kladding
 
 include::../felles/includes/standardheader.adoc[]
 include::../felles/includes/commonlinks1.adoc[]
 
 // Article contents written below
-Standardtekst: Jeg legger eventuelt til mer informasjon her etter hvert.
+== Overskrift 1
+
+Her er finnes mapper for brukere som ønsker et "kladdeområde", der en kan eksperimentere med innholdsredigering uten strenge krav til å følge standarder, samtidig som standard maler og annet er tilgjengelig.  
+
 

@@ -1,0 +1,24 @@
+:lang: no
+:difi_orig_language: no
+:difi_translation_status: -
+
+// You may override the default author and email, which is normally displayed just below the document header (if present)
+:author: Håkon Jendal
+:email: håkon.jendal@nav.no
+
+:doctitle_no: Håkons kladdeområde
+:keywords_no: Kladdeområde
+:doctitle_en: English title TBD  
+:keywords_en: English keywords TBD
+
+:preamble: Dette er et område for hvor jeg kan eksperimentere, kladde og la være å tenke på krav til å følge noen bestemte standarder. Det som er bra med å bruke dette området i stedet for å kladde et annet sted, er at jeg har full tilgang til maler og verktøy som Difi har for innhold under Nasjonalt arkitekturbibliotek på GitHub. Jeg kan bruke det til personlige notater eller innlegg (blogging) om jeg vil.  
+
+include::../felles/includes/standardheader.adoc[]
+include::../felles/includes/commonlinks1.adoc[]
+
+:imagesdir: ./images
+//image:Bildefil[image,width=120]
+
+// Article contents written below
+
+Mer info om hva jeg holder på med kommer kanskje her...

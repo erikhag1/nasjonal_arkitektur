@@ -1,14 +1,20 @@
 :lang: no
 :difi_orig_language: no
 :difi_translation_status: incomplete
+
 :doctitle_no: Norsk fellesoffentlig arkitekturbibliotek
 :keywords_no: Norsk, arkitekturbibliotek, offenlig sektor, virksomhetsarkitektur, NIF, samhandlingsarkitektur, rammeverk, GitHub
+
 :doctitle_en: Norwegian National Architecture Repository 
-:keywords_en: Norwegian, Architecture Repository, Public sector, Enterprise Architecture, NIF, Architecture Interoperability Framework, GitHub,
+:keywords_en: Norwegian, Architecture Repository, Public sector, Enterprise Architecture, NIF, Architecture Interoperability Framework, GitHub
+
 :preamble: Arkitekturdokumentasjon - modeller, standarder, referansearkitekturer, veiledninger, anbefalinger, tips, maler og annet av  interesse på tvers av offentlig (og privat) sektor i Norge
+
 include::../felles/includes/standardheader.adoc[]
 include::../felles/includes/commonlinks1.adoc[]
 
+////
+////
 
 :path_arkitekturbibliotek_brukerveiledning: {path_solution_building_blocks}/Arkitekturbibliotek_på_github.difi.no/Brukerveiledning
 
