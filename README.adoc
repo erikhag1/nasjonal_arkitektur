@@ -18,17 +18,23 @@
 include::./felles/includes/standardheader.adoc[]
 include::./felles/includes/commonlinks1.adoc[]
 
+:link_praktiske_tips_komme_igang_med_innholdsproduksjon: <<../getting_started/Praktiske_tips_for_å_komme_igang.adoc#, Praktiske tips for å komme i gang med GitHub og bidra med innhold>>
+
+
+:link_praktiske_tips_komme_igang_med_innholdsproduksjon: <<../getting_started/Praktiske_tips_for_å_komme_igang.adoc#, Praktiske tips for å komme i gang med GitHub og bidra med innhold>>
+
+
 // Article contents written below this point
 Under __Nasjonal arkitektur på GitHub__ finnes
 
-:Norsk_fellesoffentlig_arkitekturbibliotek: <<./arkitekturbibliotek/README.adoc#, Norsk fellesoffentlig arkitekturbibliotek>>
+:link_norsk_fellesoffentlig_arkitekturbibliotek: <<./arkitekturbibliotek/README.adoc#, Norsk fellesoffentlig arkitekturbibliotek>>
 
-:Arbeidsomraader_for_prosjekter: <<./prosjektområder/README.adoc#, Arbeidsområder for prosjekter>>
+:link_arbeidsomraader_for_prosjekter: <<./prosjektområder/README.adoc#, Arbeidsområder for prosjekter>>
 
-:Personlige_arbeidsomraader: <<./brukerområder/README.adoc#, Personlige arbeidsområder>>
+:link_personlige_arbeidsomraader: <<./brukerområder/README.adoc#, Personlige arbeidsområder>>
 
+1. {link_norsk_fellesoffentlig_arkitekturbibliotek}
+2. {link_arbeidsomraader_for_prosjekter}
+3. {link_personlige_arbeidsomraader}
 
-1. {Norsk_fellesoffentlig_arkitekturbibliotek}
-2. {Arbeidsomraader_for_prosjekter}
-3. {Personlige_arbeidsomraader}
-
+Se ellers {link_praktiske_tips_komme_igang_med_innholdsproduksjon}.
