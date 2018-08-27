@@ -13,17 +13,22 @@
 :doctitle_en: English title TBD  
 :keywords_en: English keywords TBD
 
-:preamble: Standarder, veiledninger, anbefalinger, tips, maler og annet av felles interesse på tvers av offentlig sektor i Norge
+//:preamble: 
 
 include::./felles/includes/standardheader.adoc[]
 include::./felles/includes/commonlinks1.adoc[]
 
-// Article contents written below
+// Article contents written below this point
 Under __Nasjonal arkitektur på GitHub__ finnes
 
 :Norsk_fellesoffentlig_arkitekturbibliotek: <<./arkitekturbibliotek/README.adoc#, Norsk fellesoffentlig arkitekturbibliotek>>
 
+:Arbeidsomraader_for_prosjekter: <<./prosjektområder/README.adoc#, Arbeidsområder for prosjekter>>
+
+:Personlige_arbeidsomraader: <<./brukerområder/README.adoc#, Personlige arbeidsområder>>
+
+
 1. {Norsk_fellesoffentlig_arkitekturbibliotek}
-2. Arbeidsområder for prosjekter
-3. Personlige arbeidsområder
+2. {Arbeidsomraader_for_prosjekter}
+3. {Personlige_arbeidsomraader}
 

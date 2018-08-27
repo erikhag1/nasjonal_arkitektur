@@ -25,10 +25,14 @@ include::../felles/includes/commonlinks1.adoc[]
 
 :link_grunnleggende_prinsipper_for_biblioteket: <<../getting_started/grunnleggende_prinsipper_for_biblioteket.adoc#, Grunnleggende prinsipper>>
 
-:link_visjoner_for_biblioteket: <<../getting_started/visjoner_for_biblioteket.adoc#, Visjoner>>
+:link_visjoner_for_biblioteket: <<../getting_started/visjoner_for_biblioteket.adoc#, Visjoner for arkitekturbiblioteket>>
 
 
 :link_dokumentasjonskonvensjoner: <<{path_arkitekturbibliotek_brukerveiledning}/dokumentasjonskonvensjoner.adoc#, Dokumentasjonskonvensjoner>>
+
+==============
+image:difilogo.svg[image,width=169,height=66]
+==============
 
 
 == Bakgrunn og formål
@@ -36,9 +40,23 @@ Norsk fellesoffentlig arkitekturbibliotek er opprettet av Difi 2018 for å samle
 
 Biblioteket inneholder informasjon om rammeverk, retningslinjer, anbefalinger, tips, maler, felleskomponenter, behov.
 
-I tillegg til innholdet i dette biblioteket, vil det finnes  stoff i tilsvarende biblioteker i de enkelte virksomhetene som også kan være av felles interesse. Det er et siktemål at alle virksomheter følger et sett av konvensjoner for arkitekturdokumentasjon som gjør det enkelt å referere og integrere innhold på tvers.
+Originalinnhold produseres og lagres primært på GitHub, men det benyttes et sett av standard kildeformater som gjør at en likevel ikke er avhengig av GitHub. Disse kildeformatene kan konverteres til html, pdf og en  rekke andre presentasjonsformater, ut fra behovet. #Referansekatalogen ... html...#
 
-Originalinnhold produseres og lagres primært på GitHub. Det benyttes et sett av standard kildeformater som uansett gjør at en likevel ikke er avhengig av GitHub. Disse kildeformatene  kan konverteres til html og andre presentasjonsformater som ønsket. 
+== Visjon
+Det er et siktemål at alle virksomheter i offentlig sektor følger et sett av konvensjoner for arkitekturdokumentasjon som gjør det enkelt å referere og integrere innhold på tvers.
+
+Se også:
+
+1. {link_visjoner_for_biblioteket}
+2. {link_grunnleggende_prinsipper_for_biblioteket}
+
+
+== Avgrensing og sammenheng
+
+I tillegg til innholdet i dette biblioteket, vil det finnes stoff i tilsvarende (git-baserte) biblioteker i de enkelte virksomhetene som også kan være av felles interesse, og som en kan lenke til fra dette biblioteket og vice versa.
+
+Det vil også finnes informasjon og data som ikke per i dag (2018) egner seg godt for innholdsproduksjon og lagring på GitHub, slik som f.eks. regneark og databaser. 
+
 
 == Hvordan finne fram
 Mappestrukturen i biblioteket er bygget opp etter mønster av {url_togaf_92} og {url_norsk_arkitekturrammeverk_for_samhandling}.
@@ -61,5 +79,7 @@ Se også:
 
 1. {link_praktiske_tips_komme_igang_med_innholdsproduksjon}  
 2. {link_dokumentasjonskonvensjoner}
-3. {link_grunnleggende_prinsipper_for_biblioteket}
-4. {link_visjoner_for_biblioteket}
+
+==============
+image:difilogo.svg[image,width=169,height=66]
+==============

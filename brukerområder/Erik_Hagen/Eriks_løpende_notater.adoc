@@ -20,8 +20,16 @@ include::../felles/includes/commonlinks1.adoc[]
 
 // Article contents written below
 
-
+:numbered:
 == Asciidoctor kommandolinje
 asciidoctor -a lang=no -S safe -B C:/Users/eha/GitHub/difi/nasjonal_arkitektur README.adoc
+
+== Plan for videre arbeid med arkitekturbiblioteket
+
+1. Maler
+2. Minimum sett av komme-i-gang info
+    * ksajdkjsa
+    
+
 
 
