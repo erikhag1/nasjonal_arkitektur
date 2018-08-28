@@ -20,12 +20,12 @@ include::../felles/includes/commonlinks1.adoc[]
 
 :url_hvordan_opprette_github_bruker: https://www.wikihow.com/Create-an-Account-on-GitHub[Tips om å opprette github bruker]
 
-:link_praktiske_tips_komme_igang_med_innholdsproduksjon: <<../getting_started/Praktiske_tips_for_å_komme_igang.adoc#, Praktiske tips for å komme i gang med GitHub og bidra med innhold>>
+:link_praktiske_tips_komme_igang_med_innholdsproduksjon: <<../praktisketips/Praktiske_tips_for_å_komme_igang.adoc#, Praktiske tips for å komme i gang med GitHub og bidra med innhold>>
 
 
-:link_grunnleggende_prinsipper_for_biblioteket: <<../getting_started/grunnleggende_prinsipper_for_biblioteket.adoc#, Grunnleggende prinsipper>>
+:link_grunnleggende_prinsipper_for_biblioteket: <<../praktisketips/grunnleggende_prinsipper_for_biblioteket.adoc#, Grunnleggende prinsipper>>
 
-:link_visjoner_for_biblioteket: <<../getting_started/visjoner_for_biblioteket.adoc#, Visjoner for arkitekturbiblioteket>>
+:link_visjoner_for_biblioteket: <<../praktisketips/visjoner_for_biblioteket.adoc#, Visjoner for arkitekturbiblioteket>>
 
 
 :link_dokumentasjonskonvensjoner: <<{path_arkitekturbibliotek_brukerveiledning}/dokumentasjonskonvensjoner.adoc#, Dokumentasjonskonvensjoner>>

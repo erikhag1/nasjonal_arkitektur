@@ -1,1 +1,22 @@
-Maler for artikler og b√∏ker
+:lang: no
+:difi_orig_language: no
+:difi_translation_status: -
+
+:doctitle_no: Maler for Asciidoc
+:keywords_no: Mal, Asciidoc
+:doctitle_en: English title TBD  
+:keywords_en: English keywords TBD
+
+//:preamble: 
+
+include::../felles/includes/standardheader.adoc[]
+include::../felles/includes/commonlinks1.adoc[]
+
+
+:link_asciidocmal_enkel_norsk: <<Asciidocmal_enkel_norsk#, Enkel mal for Asciidoc pÂ norsk>>
+
+
+// Article contents written below this point
+
+== Enkle maler for Â komme i gang 
+* {link_asciidocmal_enkel_norsk}

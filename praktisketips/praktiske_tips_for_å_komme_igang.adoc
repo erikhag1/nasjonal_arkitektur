@@ -15,8 +15,7 @@ include::..//felles/includes/commonlinks1.adoc[]
 
 :numbered:
 == Generelt
-Her gis praktiske tips om å komme igang med GitHub og dokumentasjon med Asciidoc eller Markdown, myntet på brukere som ikke fra før har etablert løsninger for dette. Det gis tips og anbefalinger om spesifikke verktøy, men det hver enkelt står fritt til å velge andre alternativer.
-
+Her gis praktiske tips om å komme igang med GitHub og dokumentasjon med Asciidoc eller Markdown, myntet på brukere som ikke fra før har etablert løsninger for dette. Det gis tips og anbefalinger om spesifikke verktøy, men hver enkelt står fritt til å velge andre alternativer for å oppnå det samme, dvs. dokumentasjon på felles format.
 
 == Etabler lokal filmappe for kloning av github-filer
 
@@ -93,19 +92,6 @@ Disse malene finnes her: ...
 
 Kopier aktuell mal til aktuelt arbeidsområde og start å skrive.
 
-Forslag: Start med den enkleste malen først. Derosm du er i tvil om hvor i arkitekturbiblioteket dokumentet ditt hører hjemme, eller du bare vil eksperimentere, kan du benytte ditt personlige område. 
-
-Tips: Start med å ko
-
-
-så avansert du måtte ønske, eller noe midt i mellom. Her er noen tips:
-
-* link:Tips_for_å_skrive_artikler_eller_kapitler.adoc[Tips for å skrive enkle artikler eller kapitler]
-* link:Tips_for_å_skrive_dokumenter_eller_bøker.adoc[Tips for å skrive dokumenter eller bøker]
-* Avanserte tips for innholdsproduksjon (#kommer#)
-
-== Andre tips
-#Flere tips kommer her;)#
-
+Forslag: Start med den enkleste malen først. Dersom du er i tvil om hvor i arkitekturbiblioteket dokumentet ditt hører hjemme, eller du bare vil eksperimentere, kan du benytte ditt personlige område. 
 
 
