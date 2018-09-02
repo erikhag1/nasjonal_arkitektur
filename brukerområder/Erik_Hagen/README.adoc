@@ -28,4 +28,7 @@ Mer info om hva jeg holder på med kommer kanskje her.
 TIP: Husk asciidoctor kommandolinje: asciidoctor -a lang=no -S safe -B C:/Users/eha/GitHub/difi/nasjonal_arkitektur README.adoc
 
 
+TIP: Start cmd as Administartor og kjør "git config --system core.longpaths true"
+
+
 image:difilogo.svg[image,width=169,height=66]
