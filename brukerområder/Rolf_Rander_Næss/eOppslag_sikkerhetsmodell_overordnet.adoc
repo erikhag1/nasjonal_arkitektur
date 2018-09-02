@@ -1,16 +1,14 @@
 :lang: no
 :difi_orig_language: no
 :difi_translation_status: -
-
 :author: Rolf Rander Næss
 :email: rolf.rander.ness@acando.no
-
 :doctitle_no: Overordnet innføring i sikkerhetsmekanismer for eOppslag
 :keywords_no: eOppslag sikkerhet autentisering
 :doctitle_en: English title TBD
 :keywords_en: English keywords TBD
 
-= Overordnet innføring i sikkerhetsmekanismer for eOppslag
+include::../felles/includes/standardheader.adoc[]
 
 == Overordnede mål
 
