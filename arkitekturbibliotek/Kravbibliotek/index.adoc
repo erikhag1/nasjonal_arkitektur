@@ -1,0 +1,7 @@
+= Kravbibliotek
+
+== Kapabilietetskrav
+
+== Segmentkrav
+
+== Strategiske krav
