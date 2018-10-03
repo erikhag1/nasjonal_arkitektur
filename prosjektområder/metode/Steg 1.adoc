@@ -21,7 +21,7 @@ Her er et bilde av en fyr fra web: +
 image:https://i.imgur.com/AEkqoRn.jpg[alt="not bad.",width=128,height=128]
 
 Her er et bilde av en fyr med et lokalt lagret bilde (som likner til forveksling på den andre fyren, men det er tydelig hvem som er størst): + 
-image:./images/Håkon_Jendal.jpg[]
+image:./images/Håkon_Jendal.jpg[alt="bad!", width=128]
 
 
 
