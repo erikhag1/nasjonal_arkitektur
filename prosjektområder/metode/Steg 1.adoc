@@ -12,16 +12,11 @@ Ved modellering av forretningsprosesser på tvers av virksomheter skal man tydel
 Det må tydeliggjøres at hjemler/samtykke for deling av informasjon er på plass slik at prosessen kan digitaliseres. Dersom det er behov for endringer i lovverk (juridisk interoperabilitet), så må dette initieres mot rett lovgivende departement. Dersom det dukker opp nye sentrale begreper, så bør disse løftes inn i begrepskatalogen (semantisk interoperabilite).
 Forretningsprosessens hovedformål er å identifisere digitale samhandlinger på tvers av virksomheter og ikke vise detaljer på hva som foregår i den enkelte virksomhet. Dette for å ha fokus på den digitale samhandlingen. 
 Prosessen for samtykkebasert lånesøknad kan for eksempel modelleres slik:
-<Figur>
+
+image:./images/Norsk EIF.jpg[alt="bad!", width=250]
 
 Når 2 parter blir enige om en fulldigitalisert prosess, så har man et godt startpunkt på videre arbeid. Begge parter må kanskje gjøre løft i forhold til digitalisering, noe som kanskje ikke er fullt ut mulig. Ofte vil man kunne digitalisere samhandlingen for fremtiden og så kan hver og en virksomhet stegvis dra nytte av dette til å digitalisere interne løsninger. Unntaksvis må man kanskje fire på kravet på hvor langt man vil gå i å digitalisere samhandlingen. I steg 2 vil vi se på hvordan man mapper fra en digital prosess ned på forretningsmønstre. Steg 2 kan med fordel kjøres samtidig som steg 1, men er av pedagogiske grunner her delt i 2 steg.
 
-== Tips fra Erik
-Her er et bilde av en fyr fra web: + 
-image:https://i.imgur.com/AEkqoRn.jpg[alt="not bad.",width=128,height=128]
-
-Her er et bilde av en fyr med et lokalt lagret bilde (som likner til forveksling på den andre fyren, men det er jo tydelig hvem som er størst): + 
-image:./images/Håkon_Jendal.jpg[alt="bad!", width=250]
 
 
 
