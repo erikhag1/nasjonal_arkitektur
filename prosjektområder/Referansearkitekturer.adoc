@@ -14,8 +14,8 @@ Følgende figur gir en skisse over disse:
 
 image:./metode/images/Referansearkitekturer.png[alt="bad!", width=750]
 
-Se https://difidrift.sharepoint.com/sites/Arkitekturbibliotek/Referansearkitekturer/Hjemmeside.aspx[eMelding] for mer informasjon for mer informasjon om referansearkitektur for eMelding.
+Se https://difidrift.sharepoint.com/sites/Arkitekturbibliotek/Referansearkitekturer/Hjemmeside.aspx[eMelding] for mer informasjon om referansearkitektur for eMelding.
 
-Se link:./2018-eOppslag/[eOppslag] for mer informasjonom referansearkitektur for eOppslag.
+Se link:./2018-eOppslag/[eOppslag] for mer informasjon om referansearkitektur for eOppslag.
 
 Det er ikke påbegynt arbeid med referansearkitektur for eNotifikasjon enda.
