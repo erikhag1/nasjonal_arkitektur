@@ -12,6 +12,7 @@ Det jobbes for øyeblikket med 3 referansearkitekturer:
 
 Følgende figur gir en skisse over disse.
 
+image:./metode/images/Referansearkitekturer.jpg[alt="bad!", width=750]
 
 Se https://difidrift.sharepoint.com/sites/Arkitekturbibliotek/Referansearkitekturer/Hjemmeside.aspx[eMelding] for mer informasjon for mer informasjon om referansearkitektur for eMelding.
 
