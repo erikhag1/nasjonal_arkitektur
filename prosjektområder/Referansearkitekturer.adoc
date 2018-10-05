@@ -1,6 +1,6 @@
 = Referanse arkitekturer digital samhandling
 
-Det vil bli etablert flere referansearkitekturer for digital samhandling som dokumenterer beste praksis for hvordan man skal samhandle gitt et konkret behov for samhandling. I dokumentasjon av http://../metode/Samhandlingsmønstre.adoc/[Samhandlingsmønstre^] dokumenteres det hvordan de forskjellige forretningsmessige samhandlingsmønstrene hver og en kan mappes mot en bestemt referansearkitektur. For en referansearkitektur kan man så igjen finne beste tekniske løsningsarkitektur som dokumenterer beste praksis for hvordan man teknisk skal samhandle for å realisere et samhandlingsmønster.
+Det vil bli etablert flere referansearkitekturer for digital samhandling som dokumenterer beste praksis for hvordan man skal samhandle gitt et konkret behov for samhandling. I dokumentasjon av link:./metode/Samhandlingsmønstre.adoc/[Samhandlingsmønstre^] dokumenteres det hvordan de forskjellige forretningsmessige samhandlingsmønstrene hver og en kan mappes mot en bestemt referansearkitektur. For en referansearkitektur kan man så igjen finne beste tekniske løsningsarkitektur som dokumenterer beste praksis for hvordan man teknisk skal samhandle for å realisere et samhandlingsmønster.
 
 Det jobbes for øyeblikket med 3 referansearkitekturer:
 
@@ -13,7 +13,7 @@ Følgende figur gir en skisse over disse.
 
 Se https://difidrift.sharepoint.com/sites/Arkitekturbibliotek/Referansearkitekturer/Hjemmeside.aspx[eMelding] for mer informasjon for mer informasjon om referansearkitektur for eMelding.
 
-Se http://./2018-eOppslag/[eOppslag] for mer informasjonom referansearkitektur for eOppslag.
+Se link:./2018-eOppslag/[eOppslag] for mer informasjonom referansearkitektur for eOppslag.
 
 Det er ikke påbegynt arbeid med referansearkitektur for eNotifikasjon enda.
 
