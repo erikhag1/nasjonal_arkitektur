@@ -1,16 +1,11 @@
 :lang: no
-:difi_orig_language: no
-:difi_translation_status: incomplete
 
-:doctitle_no: Norsk fellesoffentlig arkitekturbibliotek
-:keywords_no: Norsk, arkitekturbibliotek, offenlig sektor, virksomhetsarkitektur, NIF, samhandlingsarkitektur, rammeverk, GitHub
-
-:doctitle_en: Norwegian National Architecture Repository 
-:keywords_en: Norwegian, Architecture Repository, Public sector, Enterprise Architecture, NIF, Architecture Interoperability Framework, GitHub
-
+:doctitle: Norsk fellesoffentlig arkitekturbibliotek
+:keywords: Norsk, arkitekturbibliotek, offenlig sektor, virksomhetsarkitektur, NIF, samhandlingsarkitektur, rammeverk, GitHub
 :preamble: Arkitekturdokumentasjon - modeller, standarder, referansearkitekturer, veiledninger, anbefalinger, tips, maler og annet av  interesse på tvers av offentlig (og privat) sektor i Norge
 
 include::../felles/includes/standardheader.adoc[]
+
 include::../felles/includes/commonlinks1.adoc[]
 
 ////
@@ -55,7 +50,7 @@ Se også:
 
 I tillegg til innholdet i dette biblioteket, vil det finnes stoff i tilsvarende (git-baserte) biblioteker i de enkelte virksomhetene som også kan være av felles interesse, og som en kan lenke til fra dette biblioteket og vice versa.
 
-Det vil også finnes informasjon og data som ikke per i dag (2018) egner seg godt for innholdsproduksjon og lagring på GitHub, slik som f.eks. regneark og databaser. 
+Det vil også finnes informasjon og data som ikke per i dag (2018) egner seg godt for innholdsproduksjon og lagring på GitHub, slik som f.eks. regneark og databaser.
 
 
 == Hvordan finne fram
@@ -75,9 +70,9 @@ Terskelen for å publisere innhold skal ikke være for høy. Eksempler og praksi
 
 Gi beskjed via e-post til nasjonalarkitektur@difi.no om du ønsker å bidra og vil ha skrivetilgang. Oppgi da ditt brukernavn på GitHub (se eventuelt {url_hvordan_opprette_github_bruker}).
 
-Se også: 
+Se også:
 
-1. {link_praktiske_tips_komme_igang_med_innholdsproduksjon}  
+1. {link_praktiske_tips_komme_igang_med_innholdsproduksjon}
 2. {link_dokumentasjonskonvensjoner}
 
 ==============
