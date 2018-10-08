@@ -1,6 +1,6 @@
 = Steg 3 - Identifisere referansearkitektur
 
-Når samhandlingsmønstre er identifisert, se link:./Steg 2.adoc[steg 2], så kan man mappe disse mot link:../Referansearkitekturer.adoc[referansearkitektur] for hver enkelt samhandling.
+Når samhandlingsmønstre er identifisert, se link:"./Steg 2.adoc"[steg 2], så kan man mappe disse mot link:../Referansearkitekturer.adoc[referansearkitektur] for hver enkelt samhandling.
 
 Har man fått til en god enighet om samhandlingsmønstre, så vil ofte prosessen med å mappe mot referansearkitektur være ganske enkel da det under link:./Samhandlingsmønstre.adoc[samhandlingsmønstre] er angitt hvilken referansearkitektur som gjelder for et bestemt samhandlingsmønster.
 
