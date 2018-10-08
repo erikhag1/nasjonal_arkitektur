@@ -9,7 +9,7 @@ Hvert enkelt samhandlingsmønster beskrives i mer detalj under. I beskrivelsen f
 * UMM Transaction patterns (UN/CEFACT's Modeling Methodology - UMM)
 * Enterprise Integration Patterns (EAI) (Gregor Hohpe og Bobby Woolf)
 
-For hvert samhandlingsmønster pekes det på hvilken referansearkitektur som skal benyttes for samhandlingen.
+For hvert samhandlingsmønster pekes det på hvilken link:../Referansearkitekturer.adoc[eferansearkitektur] som skal benyttes for samhandlingen.
 
 1. Forretningstransaksjon mellom to parter
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
