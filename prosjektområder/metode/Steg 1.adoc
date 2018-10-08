@@ -2,7 +2,7 @@
 
 Basert på god forståelse av prosessene for fulldigitalisert samhandling mellom virksomheter og virksomhetenes rolle/ ansvar i disse prosessen har man mulighet for å gjøre gode tekniske løsningsvalg på digital samhandling. Her beskrives hvordan man kan ta fram slike prosesser som først og fremst har fokus på den digitale samhandlingen.
 
-Digital samhandling mellom virksomheter vil fra et forretningsperspektiv gjøres på et fåtall måter. Dette kaller vi link:./Samhandlingsmønstre.adoc[samhandlingsmønstre]. I steg 2 vil vi se på hvordan vi enkelt kan avdekke hvilke samhandlingsmønstre man har behov for å realisere en digital samhandlingsprosess. Først når man har identifisert samhandlingsmønstre, er det riktig å diskutere hvilke tekniske løsningsalternativer man har for hver enkelt samhandling. Sagt på en annen måte, man må forstå og være enige om behovet før man kan diskutere teknologi. Dette ser vi på i setg 3.
+Digital samhandling mellom virksomheter vil fra et forretningsperspektiv gjøres på et fåtall måter. Dette kaller vi link:./Samhandlingsmønstre.adoc[samhandlingsmønstre]. I link:./Steg 2.adoc[steg 2] vil vi se på hvordan vi enkelt kan avdekke hvilke samhandlingsmønstre man har behov for å realisere en digital samhandlingsprosess og deretter mappe disse mor referansearkitekturer i link:./Steg 3.adoc[steg 3]. Først når man har identifisert samhandlingsmønstre og referansearkitektur, er det riktig å diskutere løsningsarkitektur og hvilke tekniske løsningsalternativer man har for hver enkelt samhandling. Dette ser vi på i link:./Steg 4.adoc[steg 4]. Sagt på en annen måte, man må forstå og være enige om behovet før man kan diskutere teknologi.
 
 Ved modellering av forretningsprosesser på tvers av virksomheter, skal man tydelig avklare både eierskap til informasjon og funksjonalitet. Man skal deretter (eller i paralell) tenke på hvordan en fulldigitalisert prosess grovt sett se ut hos hver enkelt part. Før man til slutt (eller i paralell) ser på hvordan samhandlingen burde fungert dersom begge parter blir fulldigitalisert på området man jobber med. Man bør prøve å forstå hvilke behov som styrer en hver samhandling, for eksempel:
 
@@ -24,8 +24,5 @@ Prosessen for konkurs og lønnsgaranti kan for eksempel modelleres slik:
 
 image:./images/Basis prosess lønnsgaranti.png[alt="bad!", width=1000]
 
-Når 2 parter blir enige om en fulldigitalisert prosess, så har man et godt startpunkt på videre arbeid. Begge parter må kanskje gjøre løft i forhold til digitalisering, noe som ikke alltid er fullt ut mulig. Ofte vil man kunne digitalisere samhandlingen for fremtiden og så kan hver og en virksomhet stegvis dra nytte av dette til å digitalisere interne løsninger. Unntaksvis må man kanskje fire på kravet på hvor langt man vil gå i å digitalisere samhandlingen. I steg 2 vil vi se på hvordan man mapper fra en digital prosess ned på forretningsmønstre. Steg 2 kan med fordel kjøres samtidig som steg 1, men er av pedagogiske grunner dokumentert separat.
-
-
-
+Når 2 parter blir enige om en fulldigitalisert prosess, så har man et godt startpunkt på videre arbeid. Begge parter må kanskje gjøre løft i forhold til digitalisering, noe som ikke alltid er fullt ut mulig. Ofte vil man kunne digitalisere samhandlingen for fremtiden og så kan hver og en virksomhet stegvis dra nytte av dette til å digitalisere interne løsninger. Unntaksvis må man kanskje fire på kravet på hvor langt man vil gå i å digitalisere samhandlingen. I link:./Steg 2.adoc[steg 2] vil vi se på hvordan man mapper fra en digital prosess ned på forretningsmønstre. link:./Steg 2.adoc[steg 2] kan med fordel kjøres samtidig som steg 1, men er av pedagogiske grunner dokumentert separat.
 
