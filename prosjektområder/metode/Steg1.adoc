@@ -22,6 +22,6 @@ image:./images/Prosess SBL.png[alt="bad!", width=750]
 
 Prosessen for konkurs og lønnsgaranti kan for eksempel modelleres slik:
 
-image:./images/Basis prosess lønnsgaranti.png[alt="bad!", width=1000]
+image:./images/Basis prosess lønnsgaranti.png[alt="bad!", width=1100]
 
 Når 2 parter blir enige om en fulldigitalisert prosess, så har man et godt startpunkt på videre arbeid. Begge parter må kanskje gjøre løft i forhold til digitalisering, noe som ikke alltid er fullt ut mulig. Ofte vil man kunne digitalisere samhandlingen for fremtiden og så kan hver og en virksomhet stegvis dra nytte av dette til å digitalisere interne løsninger. Unntaksvis må man kanskje fire på kravet på hvor langt man vil gå i å digitalisere samhandlingen. I link:./Steg2.adoc[steg 2] vil vi se på hvordan man mapper fra en digital prosess ned på forretningsmønstre. link:./Steg2.adoc[steg 2] kan med fordel kjøres samtidig som steg 1, men er av pedagogiske grunner dokumentert separat.
