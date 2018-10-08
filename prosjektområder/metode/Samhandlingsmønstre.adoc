@@ -4,11 +4,12 @@ Digital samhandling mellom virksomheter kan utføres på et begrenset antall må
 
 image:./images/Mønstre samhandling.png[alt="bad!", width=750]
 
-Hvert enkelt samhandlingsmønster beskrives i mer detalj. I beskrivelsen finner man referanse til tilsvarende samhandlingsmønstre (patterns) som er definert av andre:
+Hvert enkelt samhandlingsmønster beskrives i mer detalj under. I beskrivelsen finner man referanse til tilsvarende samhandlingsmønstre (patterns) som er definert av andre:
+
 * UMM Transaction patterns (UN/CEFACT's Modeling Methodology - UMM)
 * Enterprise Integration Patterns (EAI) (Gregor Hohpe og Bobby Woolf)
 
-For hvert samhandlingsmønster pekes det på hvilken referansearkitektur som skal benyttes for samhandlingen.
+For hvert samhandlingsmønster pekes det på hvilken link:../Referansearkitekturer.adoc[referansearkitektur] som skal benyttes for samhandlingen.
 
 1. Forretningstransaksjon mellom to parter
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
