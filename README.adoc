@@ -21,7 +21,6 @@ include::./felles/includes/commonlinks1.adoc[]
 
 :link_praktiske_tips_komme_igang_med_innholdsproduksjon: <<./praktisketips/README.adoc#, Praktiske tips for å komme i gang med GitHub og bidra med innhold>>
 
-
 // Article contents written below this point
 Under __Nasjonal arkitektur på GitHub__ finnes
 
@@ -35,6 +34,3 @@ Under __Nasjonal arkitektur på GitHub__ finnes
 2. {link_arbeidsomraader_for_prosjekter}
 3. {link_personlige_arbeidsomraader} 
 4. {link_praktiske_tips_komme_igang_med_innholdsproduksjon}
-
- 
- 
