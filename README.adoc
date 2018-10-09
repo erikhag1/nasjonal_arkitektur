@@ -35,6 +35,4 @@ Under __Nasjonal arkitektur på GitHub__ finnes
 2. {link_arbeidsomraader_for_prosjekter}
 3. {link_personlige_arbeidsomraader} 
 4. {link_praktiske_tips_komme_igang_med_innholdsproduksjon}
-=======
-= Nasjonal arkitektur
->>>>>>> 8c3af1d62db48c34b7175fe8527ece64f8848d81
+
