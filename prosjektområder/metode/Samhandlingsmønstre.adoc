@@ -11,8 +11,7 @@ Hvert enkelt samhandlingsmønster beskrives i mer detalj under. I beskrivelsen f
 
 For hvert samhandlingsmønster pekes det på hvilken link:../Referansearkitekturer.adoc[referansearkitektur] som skal benyttes for samhandlingen.
 
-1. Forretningstransaksjon mellom to parter
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+== 1. Forretningstransaksjon mellom to parter
 
 image:./images/Forretningstransaksjon mellom to parter.png[alt="bad!", width=750]
 
