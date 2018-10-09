@@ -16,5 +16,3 @@ include::../felles/includes/commonlinks1.adoc[]
 2018_08_15_Oppsummering_etter_møte_om_eOppslag,_informasjonssikkerhet 
 
 == Kladdeområder
-
-
