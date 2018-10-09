@@ -1,4 +1,3 @@
-
 :lang: no
 :difi_orig_language: no
 :difi_translation_status: -
