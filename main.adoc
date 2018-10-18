@@ -1,5 +1,7 @@
 :lang: no
 :doctitle: Nasjonal arkitektur
+:difi_orig_language: no
+:difi_translation_status: -
 
 include::./felles/includes/standardheader.adoc[]
 include::./felles/includes/commonlinks1.adoc[]
@@ -10,5 +12,3 @@ Under __Nasjonal arkitektur__ finnes:
 . link:arkitekturbibliotek/[Norsk fellesoffentlig arkitekturbibliotek]
 . link:prosjektområder/[Arbeidsområder for prosjekter]
 . link:praktiske-tips/[Praktiske tips for å komme i gang med GitHub og bidra med innhold]
-
-Test...
