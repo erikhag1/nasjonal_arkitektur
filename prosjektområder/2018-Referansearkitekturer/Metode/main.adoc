@@ -1,0 +1,26 @@
+= Metode
+
+:doctype: book
+:docinfo:
+:icons: font
+:toc: left
+:toc-title: Innholdsfortegnelse
+
+:toclevels: 3
+:sectlinks:
+:leveloffset: +1
+
+:setnums:
+
+include::Metode.adoc[]
+
+include::Samhandlingsmønstre.adoc[]
+
+include::Steg1.adoc[]
+
+include::Steg2.adoc[]
+
+include::Steg3.adoc[]
+
+include::Steg4.adoc[]
+
