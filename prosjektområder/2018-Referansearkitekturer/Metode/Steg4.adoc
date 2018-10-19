@@ -1,4 +1,4 @@
-= Steg 4 - Identifisere løsningsarkitektur
+== Steg 4 - Identifisere løsningsarkitektur
 
 Når referansearkitektur er identifisert, se link:./Steg3.adoc[steg 3], kan man gå videre å jobbe med løsningsarkitektur.
 

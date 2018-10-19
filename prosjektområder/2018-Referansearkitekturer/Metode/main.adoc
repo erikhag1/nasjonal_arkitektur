@@ -1,16 +1,13 @@
-= Metode
+:lang: no
 
-:doctype: book
-:docinfo:
-:icons: font
-:toc: left
-:toc-title: Innholdsfortegnelse
+:doctitle: Referansearkitekturer digital samhandling
+:keywords: Norsk, arkitekturbibliotek, offenlig sektor, virksomhetsarkitektur, NIF, samhandlingsarkitektur, rammeverk, GitHub
+:preamble: Referansearkitekturer digital samhandling...
 
-:toclevels: 3
-:sectlinks:
-:leveloffset: +1
+include::../felles/includes/standardheader.adoc[]
 
-:setnums:
+include::../felles/includes/commonlinks1.adoc[]
+
 
 include::Metode.adoc[]
 

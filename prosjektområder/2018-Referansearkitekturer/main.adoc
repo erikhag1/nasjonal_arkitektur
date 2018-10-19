@@ -1,21 +1,16 @@
-= Referanse arkitekturer digital samhandling
+:lang: no
 
-Det vil bli etablert flere referansearkitekturer for digital samhandling som dokumenterer beste praksis for hvordan man skal samhandle gitt et konkret behov for samhandling. Dokumentasjonen vil være i henhold til https://www.difi.no/arkitektur[Nasjonal-arkitektur] og da spesielt https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/nasjonal-arkitektur/arkitekturrammeverk-samhandling[Nasjonal-arkitektur arkitekturrammeverk-samhandling].
+:doctitle: Referansearkitekturer digital samhandling
+:keywords: Norsk, arkitekturbibliotek, offenlig sektor, virksomhetsarkitektur, NIF, samhandlingsarkitektur, rammeverk, GitHub
+:preamble: Referansearkitekturer digital samhandling...
 
-I dokumentasjon av link:./metode/Samhandlingsmønstre.adoc/[Samhandlingsmønstre^] dokumenteres det hvordan de forskjellige forretningsmessige samhandlingsmønstrene hver og en kan mappes mot en bestemt referansearkitektur. For en referansearkitektur kan man så igjen finne beste tekniske løsningsarkitektur som dokumenterer beste praksis for hvordan man teknisk skal samhandle for å realisere et samhandlingsmønster. Se link:./metode/README.adoc[Metode] for beste praksis for å gå fra digital samhandlingsprosess til løsningsarkitektur.
+include::../felles/includes/standardheader.adoc[]
 
-Det jobbes for øyeblikket med 3 referansearkitekturer:
+include::../felles/includes/commonlinks1.adoc[]
 
-* eMelding
-* eOppslag
-* eNotifikasjon
 
-Følgende figur gir en skisse over disse:
+== Kap. 1
+asd
 
-image:./metode/images/Referansearkitekturer.png[alt="bad!", width=750]
-
-Se https://difidrift.sharepoint.com/sites/Arkitekturbibliotek/Referansearkitekturer/Hjemmeside.aspx[eMelding] for mer informasjon om referansearkitektur for eMelding.
-
-Se link:./2018-eOppslag/[eOppslag] for mer informasjon om referansearkitektur for eOppslag.
-
-Det er ikke påbegynt arbeid med referansearkitektur for eNotifikasjon enda.
+== Kap. 2
+asd

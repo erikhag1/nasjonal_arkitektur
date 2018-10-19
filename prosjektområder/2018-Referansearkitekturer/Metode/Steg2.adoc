@@ -1,4 +1,4 @@
-= Steg 2 - Identifisere samhandlingsmønstre
+== Steg 2 - Identifisere samhandlingsmønstre
 
 Som del av modellering av digital samhandlingsprosess, se link:./Steg1.adoc[steg 1], så er det naturlig å identifisere hvilket link:./Samhandlingsmønstre.adoc[samhandlingsmønster] som gjelder for hver enkelt samhandling.
 
