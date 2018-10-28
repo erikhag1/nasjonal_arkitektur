@@ -1,4 +1,5 @@
 == Steg 3 - Identifisere referansearkitektur
+:imagesdir: ./images
 
 Når samhandlingsmønstre er identifisert, se link:./Steg2.adoc[steg 2], så kan man mappe disse mot link:../Referansearkitekturer.adoc[referansearkitektur] for hver enkelt samhandling.
 
@@ -6,10 +7,10 @@ Har man fått til en god enighet om samhandlingsmønstre, så vil ofte prosessen
 
 Mapping til referansearkitektur for lånesøknad vil da se slik ut:
 
-image:./images/Prosess SBL med angivelse av referansearkitektur.png[alt="bad!", width=750]
+image:Prosess SBL med angivelse av referansearkitektur.png[alt="bad!", width=750]
 
 Mapping til referansearkitektur for  konkurs og lønnsgaranti vil da se slik ut:
 
-image:./images/Samhandling bostyrer og NAV.png[alt="bad!", width=1100]
+image:Samhandling bostyrer og NAV.png[alt="bad!", width=1100]
 
 Når referansearkitektur er identifisert for hver enkelt samhandling, så blir neste steg å identifisere løsningsarkitektur med tilhørende løsningskomponenter, se link:./Steg4.adoc[steg 4].

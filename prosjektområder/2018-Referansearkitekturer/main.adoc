@@ -3,29 +3,18 @@
 :keywords: Norsk, arkitekturbibliotek, offenlig sektor, virksomhetsarkitektur, NIF, samhandlingsarkitektur, rammeverk, Referansearkitekturer
 :preamble: Referansearkitekturer digital samhandling...
 
-include::../felles/includes/standardheader.adoc[]
-include::../felles/includes/commonlinks1.adoc[]
+include::./felles/includes/standardheader.adoc[]
+include::./felles/includes/commonlinks1.adoc[]
+
 
 
 :imagesdir: ./felles/images
-
 image::i-arbeid.png[width=75, height=75]
 
-:imagesdir: ./Metode/images
-
-include::./Metode/Metode.adoc[]
+//:imagesdir!:
 
 :leveloffset: +1
-
-include::./Metode/Samhandlingsmønstre.adoc[]
-
-include::./Metode/Steg1.adoc[]
-
-include::./Metode/Steg2.adoc[]
-
-include::./Metode/Steg3.adoc[]
-
-include::./Metode/Steg4.adoc[]
+include::./Metode/Main.adoc[]
 
 ////
 == Begreper
