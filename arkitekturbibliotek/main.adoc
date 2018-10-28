@@ -25,7 +25,7 @@ include::../felles/includes/commonlinks1.adoc[]
 
 :link_dokumentasjonskonvensjoner: <<{path_arkitekturbibliotek_brukerveiledning}/dokumentasjonskonvensjoner.adoc#, Dokumentasjonskonvensjoner>>
 
-image::../images/i-arbeid.png[]
+image::../images/i-arbeid.png[width=75, height=75]
 
 == Bakgrunn og formål
 Norsk fellesoffentlig arkitekturbibliotek er opprettet av Difi 2018 for å samle dokumentasjon om virksomhetsarkitektur som kan være av felles interesse og bidra tli økt samhandling, gjenbruk og innovasjon.
