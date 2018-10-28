@@ -2,8 +2,8 @@
 :doctitle: Praktiske tips for å komme igang med GitHub og innholdsproduksjon
 :keywords_no: dokumentasjon, GitHub, innholdsproduksjon
 
-include::./felles/includes/standardheader.adoc[]
-include::./felles/includes/commonlinks1.adoc[]
+include::../felles/includes/standardheader.adoc[]
+include::../felles/includes/commonlinks1.adoc[]
 
 
 
