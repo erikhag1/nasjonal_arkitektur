@@ -1,15 +1,11 @@
-= Praktiske tips for å komme igang med GitHub og innholdsproduksjon
-v2018-08-06
 :lang: no
-:doctype: book
-:icons: font
-:toc: left
-:toclevels: 2
-:sectanchors:
-:keywords: dokumentasjon, GitHub, innholdsproduksjon
+:doctitle: Praktiske tips for å komme igang med GitHub og innholdsproduksjon
+:keywords_no: dokumentasjon, GitHub, innholdsproduksjon
 
-include::../felles/includes/standardheader.adoc[]
-include::../felles/includes/commonlinks1.adoc[]
+include::./felles/includes/standardheader.adoc[]
+include::./felles/includes/commonlinks1.adoc[]
+
+
 
 :url_github_desktop: https://desktop.github.com/[GitHub Desktop]
 

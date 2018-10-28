@@ -1,6 +1,15 @@
 include::translation.adoc[]
 
+ifndef::difi_orig_language[]
+:difi_orig_language: no
+endif::difi_orig_language[]
+
+ifndef::difi_translation_status[]
+:difi_translation_status: -
+endif::difi_translation_status[]
+
 ifeval::["{lang}" == "no"]
+//************************
 ifdef::doctitle_no[]
 :doctitle: {doctitle_no}
 endif::[]
@@ -17,7 +26,9 @@ endif::author[]
 ifdef::keywords_no[]
 :keywords: {keywords_no}
 endif::[]
+//**********************
 endif::[]
+
 //
 ifeval::["{lang}" == "en"]
 ifdef::doctitle_en[]
@@ -106,9 +117,6 @@ ifdef::difi_include_implementation_notes[]
 = TIP: Implementation note, Erik, 2018-08-18: Consider introducing attributes to indicate the state of the translation and give hints to the user about that: difi_orig_language (normally  _no_ or _en_) and difi_translation_status (set to _complete_, _partial_ or _missing_).
 endif::difi_include_implementation_notes[]
 
-ifndef::difi_orig_language[]
-:difi_orig_language: no
-endif::difi_orig_language[]
 
 //:difi_test_translation_status:
 ifdef::difi_test_translation_status[]
