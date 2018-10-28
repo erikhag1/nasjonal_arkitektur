@@ -16,7 +16,7 @@ Prosjektområder opprettes normalt som egne GitHub repositories med skriverettig
 
 Aktuelle prosjekter:
 
-* link:./2018-Referansearkitekturer/main.adoc[Referansearkitekturer (2018)]
+* link:2018-Referansearkitekturer/main.adoc[Referansearkitekturer (2018)]
 
 
 
