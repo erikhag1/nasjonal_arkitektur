@@ -1,11 +1,8 @@
 :lang: no
 :doctitle: Praktiske tips for å komme igang med GitHub og innholdsproduksjon
-:keywords_no: dokumentasjon, GitHub, innholdsproduksjon
-
+:keywords: dokumentasjon, GitHub, innholdsproduksjon
 include::../felles/includes/standardheader.adoc[]
 include::../felles/includes/commonlinks1.adoc[]
-
-
 
 :url_github_desktop: https://desktop.github.com/[GitHub Desktop]
 

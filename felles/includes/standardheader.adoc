@@ -98,7 +98,7 @@ ifdef::attr-root-dir[]
 endif::[]
 ////
 // data-uri benyttes for å inkludere images i generert html-fil :data-uri:
-:toc:
+:toc: left
 
 ifdef::preamble[]
 {preamble}
