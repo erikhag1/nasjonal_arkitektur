@@ -1,16 +1,31 @@
 :lang: no
-:doctitle: Praktiske tips for å komme igang med GitHub og innholdsproduksjon
+:doctitle: Praktiske tips for å komme igang med GitHub og innholdsproduksjon (i arbeid)
 :keywords: dokumentasjon, GitHub, innholdsproduksjon
+:preamble: Her gis praktiske tips om bruk av GitHub og dokumentasjon med Asciidoc. Det gis tips og anbefalinger om spesifikke verktøy, men hver enkelt står fritt til å velge andre alternativer.
 include::../felles/includes/standardheader.adoc[]
 include::../felles/includes/commonlinks1.adoc[]
 
+// **** Variabler for dette dokumentet ****
 :url_github_desktop: https://desktop.github.com/[GitHub Desktop]
 
 :url_asciidocfx_download: https://github.com/asciidocfx/AsciidocFX/releases/[AsciidocFX nedlasting]
 
-//:numbered:
-== Generelt
-Her gis praktiske tips om å komme igang med GitHub og dokumentasjon med Asciidoc eller Markdown, myntet på brukere som ikke fra før har etablert løsninger for dette. Det gis tips og anbefalinger om spesifikke verktøy, men hver enkelt står fritt til å velge andre alternativer for å oppnå det samme, dvs. dokumentasjon på felles format.
+// ****************
+
+== Tilnærming til bruk av git og GitHub
+Git er en standard for versjonskontroll og lagring av kode og dokumenter. GitHub er en av flere skytjenester som støtter git.  
+
+Nasjonalt Arkitekturbibliotek er organisert i en mappestruktur med undermapper for arkitekturer, løsninger, referansearkitekturer m.m. I tillegg finnes seperate prosjektbiblioteker. Prosjektleveranser i form av dokumentasjon kopieres til "riktig" sted i strukturen under Nasjonalt arkitekturbiblitotek før prosjektslutt, mens arbeidsversjoner, møtereferater og annet prosjektspesifikt innhold tas vare på i prosjektområdet så lenge det er interessant.
+
+Skriverettigheter til selve arkitekturbiblioteket er forbeholdt medlemmer av bibliotekredaksjonen. Tilsvarende er det kun prosjektmedlemmenene som vil ha skrivetilgang til hvert prosjektområde.
+
+Andre som vil bidra med innhold kan gjøre dette ved å kopiere aktuelt GitHub repository (git Fork), gjøre endringer og så spille inn endringsforslag (git Pull Request). Redaksjonen for aktuelt GitHub-repository (arkitekturbibliotek eller prosjekt) vil så behandle endringsforslaget og eventuelt ta inn nytt eller endret innhold (git merge).
+
+_Merk: Git gir flere muligheter enn "fork" og "pull request" for å spille inn endringsforslag, men vi anbefaler inntil videre "fork" og "pull request" som nevnt._
+
+
+== Opprett GitHub bruker
+Dersom du ikke allerede har en GitHub-bruker, kan dette gjøres https://github.com/join?source=header[her].
 
 == Etabler lokal filmappe for kloning av github-filer
 
@@ -24,52 +39,50 @@ hvordan dette kan gjøres. +
 Kort fortalt: På Windows 10 Enterprise kan du kjøre gpedit.msc og endre Aktiver lange Win32 baner under
 Datamaskinkonfigurasjon, Administrative maler, System, Filsystem. Du må restarte eller logge av og på for at endringen skal tre i kraft.
 
-== Opprett GitHub bruker
-Dersom du ikke allerede har en GitHub-bruker, kan dette gjøres https://github.com/join?source=header[her].
+== Installer programvare for git og GitHub 
+Det finnes tre kategorier mennesker:
+
+. De som foretrekker grafiske brukergrensesnitt  
+. De som foretrekker å skrive tekstkommandoer 
+. De som ikke har enledinng til å installere programvare
+
+Anbefalinger for disse kategoriene er:
+
+1. Bruk GitHub Desktop (enkel bruk) eller TortoiseGit (mer anasesert).
+2. Bruk git bash. 
+3. Bruk asciidoclive; ref. https://asciidoclive.com/edit/scratch/1
 
 
-== Installer GitHub Desktop
+
+
+
+###
+
 GitHub Desktop er en mye brukt og god klient for å klone og oppdatere GitHub-biblioteker.
 
 GitHub Desktop kan lastes ned her: {url_github_desktop}.
-
-#Tips om bruk kommer her#
-
 
 WARNING: Om GitHub desktop har problemer med å aksessere .gitconfig-filen, er en fix å opprette en systemvariabel HOME til den mappen du har opprettet som hjemmeområde for dine lokale GitHub-filer (bruk Kontrollpanel, System, Avanserte systeminnstillinger, miljøvariabler). +
  +
 Tips: Det er kanskje en god ide å unngå å bruke nettverks-drive (som noen virksomheter bruker som default for Dokumenter)? Bruk kanskje heller en katalog direkte under ditt brukernavn på C:\Users? Se også  https://github.com/desktop/desktop/issues/4119.
 
-== Velg markupspråk og dokumentformat
-Det finnes et antall markupspråk, men for det nasjonale arkitekturbiblioteket er følgende to aktuelle:
 
-* Markdown: Et svært enkelt og mye utbredt markup-språk blant utviklere.
-* Asciidoc: Tilsvarer Markdown for enkle formål, men er et rikere språk som i utgangspunktet også er lagt opp til å knytte sammen artikler i  samlinger eller bøker på print eller på nett.
+== Asciidoc
+Her er noen kilder til informasjon om Asciidoc_
 
-Det anbefales å starte med asciidoc først som sist. En kan starte enkelt og eventuelt lære seg mer etter hvert.
-
-NOTE: Det er en fordel om alt innhold finnes på Ascidoc-formatet, så blir behovet for konvertering mindre om en skal sette sammen artikler i samlinger eller bøker. Konvertering fra Markdowm til Asciidoc er på den annen side stort sett uproblematisk.
-
-Her er noen kilder til informasjon om Asciidoc og Markdown:
-
-* https://guides.github.com/features/mastering-markdown/ [Mastering Markdown (kort GiyHub Guide]
 * https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/[Asciidoc syntax quick reference]
 * https://asciidoctor.org/docs/asciidoc-writers-guide/[Asciidoc Writers Guide]
 * https://asciidoctor.org/docs/user-manual/[Asciidoctor Use Manual]
-* Markdown...
 
 
 == Installer redigeringsverktøy
-Flere verktøy for editering av Asciidoc og Markdown finnes. De fleste vil ha nytte av en editor som gir støtte til formatering og gir  forhåndsvisnig av resulatet, men det er også mulig å benytte en ordinær teksteditor som f.eks. Notepad++.
+Flere verktøy for editering av Asciidoc finnes. De fleste vil ha nytte av en editor som gir støtte til formatering og gir  forhåndsvisnig av resulatet, men det er også mulig å benytte en ordinær teksteditor som f.eks. Notepad++.
 
 Anbefalt her:
 
 . AsciidocFX fungerer godt for editering av innhold på AsciiDoc-format, og støtter dessuten en rekke andre formater, inkl. Markdown. Nedlasting: {url_asciidocfx_download}
 +
 NOTE: Oppstart av AsciidocFX tar litt tid (mer enn et minutt), men fungerer ellers meget raskt. Html forhåndsvisning er umiddelbar og nær opp til det endelige resultatet (som Difi genererer med Asciidoctor). Noen mindre bugs finnes, men programmet er i kontinuerlig utvikling.
-
-. stackedit.io er nye brukt for editering av Markdown-filer. Mer ifo kommer her...
-
 
 
 == Klon GitHub-prosjektet til din maskin
@@ -83,10 +96,9 @@ c. I GitHib Desktop, velg File | Clone a repository og angi hvor filene skal leg
 == Start å skrive
 Du kan gjøre det helt enkelt eller mer eller mindre avansert.
 
-Difi har etablert noen maler i tilknytning til arkitekturbiblioteket som er ment å skulle forenkle arbeidet for hver enkelt, samtidig som en får et ensartet utseende og et opplegg for å vedlikeholde tekster på flere språk.
+Difi har etablert noen maler i tilknytning til arkitekturbiblioteket som er ment å skulle forenkle arbeidet for hver enkelt, samtidig som en får et ensartet utseende og et opplegg for å vedlikeholde tekster på flere språk, metadata m.m.
 
 Disse malene finnes her: ...
 
 Kopier aktuell mal til aktuelt arbeidsområde og start å skrive.
 
-Forslag: Start med den enkleste malen først. Dersom du er i tvil om hvor i arkitekturbiblioteket dokumentet ditt hører hjemme, eller du bare vil eksperimentere, kan du benytte ditt personlige område.

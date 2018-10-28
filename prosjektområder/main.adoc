@@ -1,19 +1,19 @@
 :lang: no
 :doctitle_no: Prosjektområder
 :keywords: Prosjekt
-
 :preamble: Prosjektområder benyttes til  lagring av prosjektrelatert dokumentasjon og arbeidsversjoner av prosjektets leveranser.  
-
 include::../felles/includes/standardheader.adoc[]
 include::../felles/includes/commonlinks1.adoc[]
 
+
 // Article contents written below
-== asdsad
+
+== Generelt
 Prosjektområder opprettes normalt som egne GitHub repositories med skriverettigheter kun for prosjektmedlemmene. Andre kan bidra ved å lage "fork" og "pull request". Leveranser i form av dokumentasjon kopieres til "riktig" sted i strukturen under Nasjonalt arkitekturbiblitotek før prosjektslutt, mens arbeidsversjoner, møtereferater og annet prosjektspesifikt innhold tas vare på i prosjektområdet så lenge det er interessant.
 
-Aktuelle prosjekter:
+== Aktuelle prosjekter
 
-* link:2018-Referansearkitekturer/[Referansearkitekturer (2018)]
+=== link:2018-Referansearkitekturer/[Referansearkitekturer (2018)]
 
 
 
