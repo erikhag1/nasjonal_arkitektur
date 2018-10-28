@@ -8,8 +8,8 @@ v2018-08-06
 :sectanchors:
 :keywords: dokumentasjon, GitHub, innholdsproduksjon
 
-include::..//felles/includes/standardheader.adoc[]
-include::..//felles/includes/commonlinks1.adoc[]
+include::../felles/includes/standardheader.adoc[]
+include::../felles/includes/commonlinks1.adoc[]
 
 :url_github_desktop: https://desktop.github.com/[GitHub Desktop]
 
