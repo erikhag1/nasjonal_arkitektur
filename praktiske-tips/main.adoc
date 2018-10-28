@@ -8,7 +8,7 @@ include::../felles/includes/commonlinks1.adoc[]
 
 :url_asciidocfx_download: https://github.com/asciidocfx/AsciidocFX/releases/[AsciidocFX nedlasting]
 
-:numbered:
+//:numbered:
 == Generelt
 Her gis praktiske tips om å komme igang med GitHub og dokumentasjon med Asciidoc eller Markdown, myntet på brukere som ikke fra før har etablert løsninger for dette. Det gis tips og anbefalinger om spesifikke verktøy, men hver enkelt står fritt til å velge andre alternativer for å oppnå det samme, dvs. dokumentasjon på felles format.
 

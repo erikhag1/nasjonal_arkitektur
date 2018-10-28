@@ -1,8 +1,6 @@
 :lang: no
 :doctitle: Nasjonal arkitektur
-:difi_orig_language: no
-:difi_translation_status: -
-
+:keywords: Nasjonal arkitektur
 include::./felles/includes/standardheader.adoc[]
 include::./felles/includes/commonlinks1.adoc[]
 

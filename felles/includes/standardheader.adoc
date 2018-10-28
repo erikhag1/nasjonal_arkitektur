@@ -82,7 +82,7 @@ endif::[]
 //:docinfodir: ../felles/meta
 //:docinfo:
 //:toc: macro
-//:sectnums:
+:sectnums:
 :leveloffset: +0
 :toclevels: 3
 :sectlinks:
@@ -103,6 +103,7 @@ endif::[]
 ifdef::preamble[]
 {preamble}
 endif::[]
+
 
 ////
 ifeval::["{toc}" == "macro"]
