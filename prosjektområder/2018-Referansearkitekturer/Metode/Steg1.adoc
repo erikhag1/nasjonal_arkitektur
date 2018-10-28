@@ -1,3 +1,4 @@
+:imagesdir: ./images
 == Steg 1 - Modeller fulldigitaliserte forretningsprosesser med fokus på samhandling
 
 Basert på god forståelse av prosessene for fulldigitalisert samhandling mellom virksomheter og virksomhetenes rolle/ ansvar i disse prosessen har man mulighet for å gjøre gode tekniske løsningsvalg på digital samhandling. Her beskrives hvordan man kan ta fram slike prosesser som først og fremst har fokus på den digitale samhandlingen på tvers av virksomheter.
@@ -30,10 +31,10 @@ Forretningsprosessens hovedformål er å identifisere digitale samhandlinger på
 
 Prosessen for samtykkebasert lånesøknad kan for eksempel modelleres slik:
 
-image:./images/Prosess SBL.png[alt="bad!", width=750]
+image:Prosess SBL.png[alt="bad!", width=750]
 
 Prosessen for konkurs og lønnsgaranti kan for eksempel modelleres slik:
 
-image:./images/Basis prosess lønnsgaranti.png[alt="bad!", width=1100]
+image:Basis prosess lønnsgaranti.png[alt="bad!", width=1100]
 
 Når 2 parter blir enige om en fulldigitalisert prosess, så har man et godt startpunkt på videre arbeid. Begge parter må kanskje gjøre løft i forhold til digitalisering, noe som ikke alltid er fullt ut mulig. Som regel vil man kunne digitalisere samhandlingen for fremtiden og så kan hver og en virksomhet stegvis dra nytte av dette til å digitalisere interne løsninger. Unntaksvis må man kanskje fire på kravet på hvor langt man vil gå i å digitalisere samhandlingen. I link:./Steg2.adoc[steg 2] vil vi se på hvordan man mapper fra en digital prosess ned på forretningsmønstre. link:./Steg2.adoc[steg 2] kan med fordel kjøres samtidig som steg 1, men er av pedagogiske grunner dokumentert separat.

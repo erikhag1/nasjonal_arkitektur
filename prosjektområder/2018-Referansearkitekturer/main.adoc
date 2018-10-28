@@ -6,10 +6,28 @@
 include::../felles/includes/standardheader.adoc[]
 include::../felles/includes/commonlinks1.adoc[]
 
+
 :imagesdir: ./felles/images
+
 image::i-arbeid.png[width=75, height=75]
 
+:imagesdir: ./Metode/images
 
+include::./Metode/Metode.adoc[]
+
+:leveloffset: +1
+
+include::./Metode/Samhandlingsmønstre.adoc[]
+
+include::./Metode/Steg1.adoc[]
+
+include::./Metode/Steg2.adoc[]
+
+include::./Metode/Steg3.adoc[]
+
+include::./Metode/Steg4.adoc[]
+
+////
 == Begreper
 
 == Strategisk tilnærming
@@ -33,4 +51,5 @@ image::i-arbeid.png[width=75, height=75]
 ...
 
 === eNotifikasjon
+////
 ...
