@@ -10,6 +10,8 @@ include::../felles/includes/commonlinks1.adoc[]
 
 include::Metode.adoc[]
 
+:toc-level: +1
+
 include::Samhandlingsmønstre.adoc[]
 
 include::Steg1.adoc[]
