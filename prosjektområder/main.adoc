@@ -5,6 +5,7 @@
 include::../felles/includes/standardheader.adoc[]
 include::../felles/includes/commonlinks1.adoc[]
 
+image::i-arbeid.png[width=75, height=75]
 
 // Article contents written below
 

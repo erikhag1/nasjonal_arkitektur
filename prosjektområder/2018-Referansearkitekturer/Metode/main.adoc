@@ -1,8 +1,7 @@
 :lang: no
-
 :doctitle: Referansearkitekturer digital samhandling
 :keywords: Norsk, arkitekturbibliotek, offenlig sektor, virksomhetsarkitektur, NIF, samhandlingsarkitektur, rammeverk, GitHub
-:preamble: Referansearkitekturer digital samhandling...
+//:preamble: Referansearkitekturer digital samhandling...
 
 include::../felles/includes/standardheader.adoc[]
 

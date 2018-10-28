@@ -1,11 +1,9 @@
 :lang: no
-
 :doctitle: Norsk fellesoffentlig arkitekturbibliotek
 :keywords: Norsk, arkitekturbibliotek, offenlig sektor, virksomhetsarkitektur, NIF, samhandlingsarkitektur, rammeverk, GitHub
 :preamble: Arkitekturdokumentasjon - modeller, standarder, referansearkitekturer, veiledninger, anbefalinger, tips, maler og annet av  interesse på tvers av offentlig (og privat) sektor i Norge
 
 include::../felles/includes/standardheader.adoc[]
-
 include::../felles/includes/commonlinks1.adoc[]
 
 ////

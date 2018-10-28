@@ -1,12 +1,13 @@
 :lang: no
-
 :doctitle: Prosjekt Referansearkitekturer 2018
 :keywords: Norsk, arkitekturbibliotek, offenlig sektor, virksomhetsarkitektur, NIF, samhandlingsarkitektur, rammeverk, Referansearkitekturer
 :preamble: Referansearkitekturer digital samhandling...
 
 include::../felles/includes/standardheader.adoc[]
-
 include::../felles/includes/commonlinks1.adoc[]
+
+:imagesdir: ./felles/images
+image::i-arbeid.png[width=75, height=75]
 
 
 == Begreper
