@@ -13,9 +13,10 @@ image::i-arbeid.png[width=75, height=75]
 //:imagesdir!:
 
 :leveloffset: +1
-include::./Referansearkitekturer.adoc[]
 include::./Metode/main.adoc[]
+:leveloffset: -1
 include::./Informasjonsutveksling/eOppslag/eOppslag-Referansearkitektur.adoc[]
+include::./Referansearkitekturer.adoc[]
 
 ////
 == Begreper

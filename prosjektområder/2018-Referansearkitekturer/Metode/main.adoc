@@ -12,11 +12,11 @@ image::i-arbeid.png[width=75, height=75]
 :imagesdir: ./images
 
 
+include::Samhandlingsmønstre.adoc[]
+
 include::Metode.adoc[]
 
 :leveloffset: +1
-
-include::Samhandlingsmønstre.adoc[]
 
 include::Steg1.adoc[]
 
